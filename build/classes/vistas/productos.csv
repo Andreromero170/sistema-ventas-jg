@@ -1,0 +1,992 @@
+ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
+1;Aceite corporal 100ml;2,50;193;2,83;5;14,15
+2;Aceite Ideal 250 ml ;1;77;1,13;;
+3;Aceite Litro;3,20;246;3,62;16;57,98
+4;Aceite para bebé 100ml;3,00;231;3,40;5;16,99
+5;Aceite para bebé 200ml;5,00;385;5,66;5;28,31
+6;Aceite para el cabello AMG-HAIR;2,7;208;3,06;12;36,69
+7;Aceite Vatel 250 ml ;1,65;127;1,87;20;37,37
+8;Acemitas paquete;2,00;154;2,26;;
+9;Aceptar bonos - aceptar - Transferir - ;0,27;21;0,31;;0,00
+10;Acetonas Clean Smooth;1,32;102;1,49;10;14,95
+11;Acetonas Valmy- Shiny- M&A- Lidia Beauty;1,83;141;2,07;10;20,72
+12;Acondicionador Alive de Pote ;2,58;199;2,92;6;17,53
+13;Adaptador de audio y microfono;0,00;0;0,00;2;0,00
+14;Adaptador de enchufes;1,32;102;1,49;8;11,96
+15;Afilador de cuchillos;5,00;385;5,66;2;11,32
+16;Agua oxigenada para el cabello Diau;1,60;123;1,81;14;25,36
+17;Agua oxigenada para el cabello Koles - Kolestinte;1,60;123;1,81;11;19,93
+18;Agua oxigenada para el cabello Salerm;1,60;123;1,81;20;36,24
+19;Agua oxigenada para herida;0,90;69;1,02;11;11,21
+20;Agujas paquete;0,33;25;0,37;30;11,21
+21;Ajax en polvo;2,39;184;2,71;;0,00
+22;Alcohol para heridas 120 cc;1,02;79;1,16;;0,00
+23;Alcohol para heridas 250ml;2,50;193;2,83;;0,00
+24;Alfombras;6,00;462;6,79;4;27,18
+25;Algodón - all Pure;2,05;158;2,32;17;39,46
+26;Algodón facial -Yizhilian;1,20;92;1,36;10;13,59
+27;Algodón Grande;1,50;116;1,70;;0,00
+28;Algodón Pequeño;1,00;77;1,13;;0,00
+29;Ampollas NK para el cabello;2,25;173;2,55;12;30,57
+30;Antenas WIFI - adaptadores;6,00;462;6,79;1;6,79
+31;Arequipe de bolsita;1,94;149;2,20;15;32,95
+32;Aromax líquido;0,90;69;1,02;11;11,21
+33;Aromax polvo;0,31;24;0,35;38;13,43
+34;Arroz  Mary Premium - verde moñito;2,30;177;2,60;38;98,97
+35;Arroz  Mary Superior - rojo;1,73;133;1,96;14;27,43
+36;Arroz  Santoni;1,40;108;1,59;20;31,71
+37;Atomizador - kit de 4 ;1,00;77;1,13;2;2,26
+38;Atún Robinson Crusoe ;2,58;199;2,92;12;35,06
+39;Atún Willinger;2,00;154;2,26;36;81,53
+40;Audífinos de orejitas ;10,00;770;11,32;3;33,97
+41;Audífonos alámbricos - Samsung - Music;4,50;347;5,10;5;25,48
+42;Audífonos alámbricos - Tecno - Infinix;1,83;141;2,07;8;16,58
+43;Audífonos Inalámbricos  de cajitas;7,00;539;7,93;4;31,71
+44;Audífonos Inalámbricos  de cajitas -TWS - V5.4;6,00;462;6,79;;
+45;Audífonos Inalámbricos P47 - ;7,00;539;7,93;4;31,71
+46;Avena 100 gr;0,60;46;0,68;3;2,04
+47;Avena Pantera 400 gr;1,60;123;1,81;;0,00
+48;Avena Pantera 800 gr;3,00;231;3,40;6;20,38
+49;Azúcar 1 kg;1,80;139;2,04;54;110,06
+50;Azúcar 200 gr;0,43;33;0,49;13;6,33
+51;Azúcar 500 gr;1,03;79;1,16;;0,00
+52;Banda o cinta para cera - Depiladora-;2,20;169;2,49;6;14,95
+53;Banda para uñas / Polish Remover Pads;3,00;231;3,40;;
+54;Banderin FELIZ CUMPLEAÑOS;1,25;96;1,42;17;24,06
+55;Barra Lokiño;0,08;6;0,09;3;0,27
+56;Base Fit;1,10;85;1,25;;
+57;Base MAC - Matte- Matchmaster -Foundation;2,50;193;2,83;23;65,11
+58;Base Miracle BB;1,85;142;2,09;5;10,47
+59;Batidor de mano;0,70;54;0,79;9;7,13
+60;Bianchi en Barra ;0,30;23;0,34;;0,00
+61;Bianchi Snack sabores varios (bolsa);1,00;77;1,13;;0,00
+62;Bicarbonato Amparito ;0,70;54;0,79;48;38,05
+63;Bicolor ;0,40;31;0,45;27;12,23
+64;Block de construcción (por hoja en 0,30 = 10 Bs.);2,60;200;2,94;7;20,61
+65;Block de dibujo ;4,00;308;4,53;3;13,59
+66;Block de rayas y cuadriculado;2,50;193;2,83;9;25,48
+67;Block papel lustrillo  (por hoja en 0,30 = 10 Bs.);1,50;116;1,70;6;10,19
+68;Bocadillos;0,14;11;0,16;;
+69;Boka - sobre para bebidas;0,39;30;0,44;517;228,32
+70;Bolsa de 1/4 de kilo ;0,00;0;0,00;12;0,00
+71;Bolsa de agua reciclable;5,75;443;6,51;;
+72;Bolsa de medio kilo 1/2;0,17;13;0,20;12;2,35
+73;Bolsa Negra 25 kilos ;0,17;13;0,20;51;9,99
+74;Bolsa Negra 40 kilos - Basura;0,30;23;0,34;101;34,31
+75;Bolsas de basura china - rollito;1,00;77;1,13;35;39,63
+76;Bolsas de regalo grandes;2,00;154;2,26;10;22,65
+77;Bolsas de regalo medianas;1,50;116;1,70;27;45,86
+78;Bolsas de regalo pequeñas;1,20;92;1,36;21;28,54
+79;Bomba de carnaval paquete;0,4;31;0,45;;
+80;Bombas de agua - Dispensadores;6,47;498;7,33;3;21,98
+81;Bombas de carnaval con pitillos - 37 pcs;0,91;70;1,03;;
+82;Bombillo - amarillo;0,50;39;0,57;47;26,61
+83;Bombillo - blanco - Led F&M;1,00;77;1,13;8;9,06
+84;Bombillo - blanco - Smartcharte;2,00;154;2,26;19;43,03
+85;Bombillo - blanco -Hugme- con cable de carga- emergencia 20W;3,00;231;3,40;6;20,38
+86;Bombillos de 60w;3,80;293;4,30;6;25,82
+87;Bombillos de 80w;5,10;393;5,78;5;28,88
+88;Bombones Bell;0,13;10;0,15;;0,00
+89;Borra o borrador grande;0,54;42;0,61;24;14,68
+90;Borra o borrador pequeño;0,30;23;0,34;;0,00
+91;Borrador de pizarra magnético;2,00;154;2,26;6;13,59
+92;Botellones 20 litros;6,00;462;6,79;5;33,97
+93;Brillo labial Lip Gloss, wow, piña;0,53;41;0,60;49;29,41
+94;Brillo para uñas;0,90;69;1,02;24;24,46
+95;Brocha para rubor - grande;2,50;193;2,83;;
+96;Brocha para rubor - pequeña;1,50;116;1,70;3;5,10
+97;Builder gel - ibd;3,60;277;4,08;;
+98;Cable cargador 400;1,20;92;1,36;;
+99;Cable HDMI;4,00;308;4,53;5;22,65
+100;Cable para internet Cat5e para exteriores;0,44;33;0,49;;
+101;Cable USB tipo C ;1,79;138;2,03;6;12,16
+102;Café 100 gr  Montaña;1,30;100;1,47;47;69,19
+103;Café 100 gr Amanecer;1,40;108;1,59;56;88,78
+104;Café 100 gr Madrid - Fama de América;1,27;98;1,44;26;37,39
+105;Café 200 gr Amanecer;0,00;0;0,00;;0,00
+106;Café 200 gr FAMA DE AMÉRICA;2,40;185;2,72;16;43,48
+107;Café 200 gr Montaña;3,00;231;3,40;10;33,97
+108;Café 250 gr Amanecer Gormet;;0;0,00;;0,00
+109;Café 250 gr Café FAMA DE AMÉRICA;3,00;231;3,40;;
+110;Café 250 gr Café MADRID;2,76;213;3,13;10;31,25
+111;Caja de colores bicolor - variados;3,00;231;3,40;;0,00
+112;Caja de colores KORES (12 und);3,41;263;3,86;7;27,03
+113;Caja de colores KORES 24 UND;6,20;477;7,02;2;14,04
+114;Caja de Colores New Élite - Lápices colores;2,00;154;2,26;2;4,53
+115;Caja de colores Paper Mate ;3,20;246;3,62;3;10,87
+116;Caja de Colores Prismacolor;4,50;347;5,10;;0,00
+117;Caja de colores STUMARK;2,70;208;3,06;5;15,29
+118;Caja de grapas lisas - corrugadas;3,00;231;3,40;3;10,19
+119;Candados;1,50;116;1,70;11;18,68
+120;Canela en palo;0,28;21;0,31;60;18,82
+121;Canela en polvo;0,27;21;0,31;36;11,05
+122;Caramelo- Lokiño Chicle - Súper Coco- Bianchi- Chao- axido;0,07;5;0,08;598;47,40
+123;Caramelos - Chao- Lokiño - tamarindo;0,05;4;0,06;1001;56,67
+124;Caraotas 400 gr Michacha;1,60;123;1,81;8;14,49
+125;Caraotas 500 gr Venela;1,36;105;1,54;;0,00
+126;Caraotas Pantera 500gr;2,11;162;2,39;14;33,45
+127;Cargador de telefónos - Infinix 2 en 1;7,68;591;8,70;6;52,18
+128;Cargador de telefónos - Travel adapter - sin cable;3,57;275;4,04;6;24,26
+129;Cargador de telefónos - V-men 3.IA;2,70;208;3,06;2;6,11
+130;Cargador LQ -LT-C06;9,00;693;10,19;;
+131;Carpeta Marrón - Tamaño Carta;1,00;77;1,13;47;53,22
+132;Carpeta Marrón - Tamaño oficio ;1,00;77;1,13;50;56,62
+133;Carpetas Manila- Tamaño Carta;0,35;27;0,40;36;14,27
+134;Carpetas Manila- Tamaño Oficio;0,45;35;0,51;136;69,30
+135;Carpetas transparentes;0,80;62;0,91;2;1,81
+136;Cartas Españolas;1,00;77;1,13;7;7,93
+137;Carteras para caballeros;2,60;200;2,94;3;8,83
+138;Cartuchera;7,00;539;7,93;5;39,63
+139;Cartulina grande - colores y holográficas;2,00;154;2,26;5;11,32
+140;Cartulina grande blanca;0,80;62;0,91;409;370,51
+141;Cartulina mediana y fluorescente;1,60;123;1,81;46;83,34
+142;Cartulinas tamaño carta ;0,32;24;0,36;260;93,03
+143;CD vírgenes ;0,60;46;0,68;23;15,63
+144;Cepillo de barrer-Completo;3,41;263;3,86;9;34,75
+145;Cepillo de lavar;1,10;85;1,25;1;1,25
+146;Cepillo expandible - esqueleto;2,10;162;2,38;6;14,27
+147;Cepillo grande para uñas ;1,00;77;1,13;;
+148;Cepillo masajeador de mascotas;4,85;373;5,49;1;5,49
+149;Cepillo para el cabello ;1,60;123;1,81;;0,00
+150;Cepillo para los pies  de cuatro usos;1,44;111;1,63;6;9,78
+151;Cepillo pequeño para uñas ;0,65;50;0,74;;
+152;Cepillo secador ;14,00;1078;15,85;1;15,85
+153;Cepillos de Barrer - sin palo;2,00;154;2,26;;0,00
+154;Cepillos de Dientes Alident - Colgate - Oral B;1,15;89;1,30;27;35,16
+155;Cepillos de Dientes ECONÓMICOS ;0,60;46;0,68;7;4,76
+156;Cera Azuleno - depiladora;6,17;475;6,99;2;13,97
+157;Cera granulada depiladora;2,50;193;2,83;6;16,99
+158;Cera para el cabello;2,50;193;2,83;;
+159;Cera para pisos;1,60;123;1,81;;0,00
+160;Cereal FRISGO;2,53;195;2,86;2;5,73
+161;Cereales Maizoritos  - Fruty Aros pequeño - individuales;0,50;39;0,57;;0,00
+162;Cereales Maizoritos grandes;4,05;312;4,59;5;22,93
+163;Cereales Mega Aros - Bol - Flakes de 240g - grande;2,70;208;3,06;9;27,52
+164;Champú Alive Gold de pote tapa de colores ;3,00;231;3,40;11;37,37
+165;Champú Alive Hiervas de pote transparente ;3,07;236;3,48;11;38,24
+166;Champú para bebé Baby  Finger 200ml;1,75;135;1,98;12;23,78
+167;Champú y acondicionador de sobre Alive;0,20;15;0,23;110;24,91
+168;Champú y acondicionador KERA MIX;0,85;65;0,96;69;66,41
+169;Champú y acondiconador de sobre Head Shoulder  y Pantene;0,45;35;0,51;248;126,37
+170;Chao Pastillas ;0,30;23;0,34;;0,00
+171;Cheese Cronch picante 110 gr;1,30;100;1,47;15;22,08
+172;Cheese Cronch queso 150 gr;1,63;126;1,85;2;3,69
+173;Cheese Tris Familiar;2,26;174;2,56;;0,00
+174;Cheese Tris pequeño;1,12;86;1,27;12;15,22
+175;Cheetos puff Familiar;2,00;154;2,26;;0,00
+176;Cheetos puff pequeño;0,80;62;0,91;;0,00
+177;Chicharrón familiar - picante;2,14;165;2,42;;0,00
+178;Chicharrón Jacks familiar ;;0;0,00;;0,00
+179;Chicharrón Jacks pequeño;;0;0,00;;0,00
+180;Chicle ácido Revolcón;0,06;4;0,06;;0,00
+181;Chicle Bubba Boom ;0,06;5;0,07;;0,00
+182;Chicle BUZZY TATUAJE ;0,04;3;0,05;;0,00
+183;Chicle Hubba Bubba Boom - METRO;2,56;197;2,90;;0,00
+184;Chicles Splot de 5 unidades;0,28;22;0,32;;0,00
+185;Chicles Splot ojos;0,06;5;0,07;;0,00
+186;Chile redondo (bolas);0,06;5;0,07;160;10,87
+187;Chimó amarillo- azul;0,60;46;0,68;29;19,70
+188;Chimó El Gran Indio Taima;0,40;31;0,45;;0,00
+189;ChisKesitos Familiar;1,87;144;2,12;;0,00
+190;ChisKesitos Familiar Tocineta;1,24;95;1,40;;0,00
+191;ChisKesitos Pequeño;0,70;54;0,79;;0,00
+192;Choco-Bay;1,08;83;1,22;11;13,45
+193;Chocolate Carre- mini;0,00;0;0,00;;0,00
+194;Chocolate Cricri, Savoy, GalaK;1,51;116;1,71;23;39,33
+195;Chocolate Dandy;0,50;39;0,57;;0,00
+196;Chocolate Flaquito;0,78;60;0,88;;0,00
+197;Chocolate Flaquito - mini- ;0,20;15;0,23;57;12,91
+198;Chocolate Royalle Botella ;2,06;159;2,33;;0,00
+199;Chocolate Stadium;0,50;39;0,57;;0,00
+200;Chocolate Trululu (Dandy);0,50;39;0,57;;0,00
+201;Chores de Dama;2,00;154;2,26;3;6,79
+202;Chupetas XXL;0,15;11;0,17;459;75,88
+203;Chupetas XXL Bolsa completa;5,00;385;5,66;;0,00
+204;Cigarros Consul -  Belmont - Caja;2,40;185;2,72;65;176,65
+205;Cigarros Consul - Belmont - Detallados;0,12;9;0,14;;0,00
+206;Cigarros Ibiza - caja;2,20;169;2,49;25;62,28
+207;Cigarros Ibiza - Detallados;0,11;8;0,12;;0,00
+208;Cigarros lucky strike;0,14;11;0,16;;0,00
+209;Cigarros lucky strike caja;2,80;216;3,17;11;34,88
+210;Cigarros universal - Caja;2,20;169;2,49;14;34,88
+211;Cigarros universal - Detallados;0,11;8;0,12;;0,00
+212;Cinta 2 metros ;1,00;77;1,13;20;22,65
+213;Cinta adhesiva - tirro de papel;2,40;185;2,72;1;2,72
+214;Cinta doble faz;3,00;231;3,40;7;23,78
+215;Cinta Transparente 12 mm (Teipe);0,80;62;0,91;4;3,62
+216;Cinta Transparente 18 mm x 33m (Teipe pequeño);1,00;77;1,13;;0,00
+217;Cinta Transparente 18 mm x50m (Teipe);1,20;92;1,36;5;6,79
+218;Cinta Transparente GRANDE - Tirro;1,60;123;1,81;;0,00
+219;Cinta Transparente PEQUEÑO - Tirro;1,00;77;1,13;;0,00
+220;Cintillos para el cabello;1,60;123;1,81;;0,00
+221;Citas Banco-Creación de usuarios;1,00;77;1,13;;0,00
+222;Clear Skin Avon;4,00;308;4,53;4;18,12
+223;Clip Blinder 32MM;0,30;23;0,34;21;7,13
+224;Clips caja;0,80;62;0,91;2;1,81
+225;Cloro 1L;1,30;100;1,47;;0,00
+226;Cloro Medio Litro;0,62;48;0,70;;0,00
+227;Cocosette;1,35;104;1,53;13;19,87
+228;Colador de espagueti o pasta;2,50;193;2,83;2;5,66
+229;Colador de jugo ;1,00;77;1,13;6;6,79
+230;Colador para café;1,00;77;1,13;;0,00
+231;Colas (KYSP);1,40;108;1,59;1;1,59
+232;Colas 2 piezas;0,85;65;0,96;;0,00
+233;Colas Grande;0,30;23;0,34;;0,00
+234;Colas para el cabello- LIGAS;0,40;31;0,45;;0,00
+235;Colas Pequeña ;0,45;35;0,51;;0,00
+236;Coleto Mediano ;2,24;172;2,54;;0,00
+237;Colonia Chicco;4,43;341;5,02;;0,00
+238;Combo de cubierto ;3,00;231;3,40;;0,00
+239;Combo de pinza para cabello (4 piezas);1,80;139;2,04;;0,00
+240;Combo de salsas Fergos;2,85;219;3,23;;0,00
+241;Compás plástico;1,20;92;1,36;7;9,51
+242;Compotas Gerber Grandes;1,60;123;1,81;;0,00
+243;Compotas Gerber Pequeñas;1,30;100;1,47;7;10,30
+244;Compotas Osole ;0,90;69;1,02;100;101,91
+245;Condimentos: adobo,ajo, color, onoto, orégano, saboseador, salsa para pasta, carmencita, comino;0,27;21;0,31;270;83,47
+246;Condimentos:clavitos, manzanilla, pimienta negra, anis dulce, laurel, levadura, bicarbonato;0,40;31;0,45;188;85,15
+247;Control remoto de TV BOX;6,00;462;6,79;;
+248;Copa para uña ;0,80;62;0,91;24;21,74
+249;Copias ;0,16;12;0,18;;0,00
+250;Copias a color ;1,00;77;1,13;;0,00
+251;Corneta para PC de barra;17,26;1329;19,54;;
+252;Corneta Portable  -CAJÓN- inalámbrica;8,00;616;9,06;5;45,29
+253;Corneta Portable  -JBL- inalámbrica;10,00;770;11,32;3;33,97
+254;Corrector de ojeras;1,30;100;1,47;40;58,88
+255;Corrector o Tipe ;1,50;116;1,70;37;62,85
+256;Cortacutícula;2,00;154;2,26;17;38,50
+257;Cortauñas grandes;1,00;77;1,13;10;11,32
+258;Cortauñas PEQUEÑOS;0,80;62;0,91;14;12,68
+259;Cortina FELIZ CUMPLEAÑOS ;1,50;116;1,70;7;11,89
+260;Cortinas para baños  - número 1076;2,85;219;3,23;6;19,36
+261;Cortinas para baños  - número 1718;1,60;123;1,81;6;10,87
+262;Cotufas  amanecer de 400 gr;1,40;108;1,59;18;28,54
+263;Cotufas Acarameladas - pequeñas;;0;0,00;;0,00
+264;Cotufas Acarameladas - Pop-Bulls- FAMILIAR ;1,16;89;1,31;1;1,31
+265;Cotufas Premiere 100 gr;0,40;31;0,45;;0,00
+266;Creación de Correos;1,00;77;1,13;;0,00
+267;Creación o actualización  de RIF;1,00;77;1,13;;0,00
+268;Crema corporal 240ml;3,70;285;4,19;3;12,57
+269;Crema corporal 85ml;1,62;125;1,83;30;55,03
+270;Crema de arroz Primor - Bolsa de 400 gr;1,80;139;2,04;23;46,88
+271;Crema de arroz Primor - POTE;2,26;174;2,56;4;10,24
+272;Crema de dientes Aliden 100 gramos;1,41;109;1,60;33;52,69
+273;Crema de dientes Colgate 90 gramos;1,55;119;1,76;21;36,86
+274;Crema de dientes Colgate triple acción 60 gramos;1,48;114;1,68;6;10,06
+275;Crema para manos;1,50;116;1,70;1;1,70
+276;Crema para peinar ROLDA;3,30;254;3,74;7;26,16
+277;Crema para peinar SKALA;6,50;501;7,36;12;88,32
+278;Crema para zapatos;1,04;80;1,18;30;35,33
+279;Crispisitos pequeños;0,40;31;0,45;18;8,15
+280;Cuadernos;0,86;66;0,97;;0,00
+281;Cubiertos desechables;1,00;77;1,13;23;26,04
+282;Cubitos Laila;0,13;10;0,15;;
+283;Cubitos Maggi;0,25;19;0,28;347;98,23
+284;Cucharas de madera;1,22;94;1,38;;
+285;Cuchillos - combo;12,00;924;13,59;3;40,76
+286;Curitas - Medicare;0,11;8;0,12;200;24,23
+287;Curriculum;1,50;116;1,70;;0,00
+288;D;1,00;77;1,13;4;4,53
+289;Dalvito 200gr;4,05;312;4,59;2;9,17
+290;De todito queso ;1,05;81;1,19;;0,00
+291;Delineador ;2,00;154;2,26;;0,00
+292;Desengrasante Litro;1,55;119;1,76;;0,00
+293;Desinfectante 1 Litro;1,30;100;1,47;;0,00
+294;Desinfectante Medio Litro;0,63;48;0,71;;0,00
+295;Desodorante de pote Alive peq.;1,55;119;1,76;22;38,61
+296;Desodorante de sobre Alive;1,50;116;1,70;35;59,45
+297;Desodorante sobre Lady Speed Stick ;0,40;31;0,45;130;58,88
+298;Desodorante sobre Lady Speed Stick- Clinical Complete - Crema;0,53;41;0,60;20;12,00
+299;Desodorante sobre Lady Speed -Xtreme Night;0,70;54;0,79;32;25,36
+300;Desodorantes Lady Speed Stick - tubo;1,73;133;1,96;14;27,43
+301;Diablito de 100gr;3,23;249;3,66;;0,00
+302;Diablito de 54gr;1,76;136;1,99;18;35,87
+303;Digibox -  TVBox -4GB-32GB;45,00;3465;50,96;1;50,96
+304;Dorito Grande;3,50;270;3,96;5;19,82
+305;Dorito pequeño;1,30;100;1,47;18;26,50
+306;Ducream ;0,30;23;0,34;2;0,68
+307;DVD Vírgenes;0,80;62;0,91;50;45,29
+308;Efecto aurora de cuatro colores;4,04;311;4,57;;
+309;Efecto aurora y espejo pequeños;1,50;116;1,70;;
+310;Engrapadora mini ;4,50;347;5,10;5;25,48
+311;Escarcha ;0,50;39;0,57;7;3,96
+312;Escarcha para uñas (COMBO DE 6);2,50;193;2,83;5;14,15
+313;Escarcha para uñas (INDIVIDUAL);0,42;32;0,48;;0,00
+314;Esencia ;1,22;94;1,38;6;8,29
+315;Espejo pequeño;2,01;155;2,28;6;13,66
+316;Esponjas de Alambre - 4 unidades;;0;0,00;;0,00
+317;Esponjas de Alambre - Saquito;0,70;54;0,79;;0,00
+318;Esponjas de Alambre R&D;0,62;48;0,70;17;11,94
+319;Esponjas de Alambre súper brillo;0,45;35;0,51;;0,00
+320;Esponjas de maquillaje - Paquete;2,00;154;2,26;5;11,32
+321;Esponjas de maquillaje individual;0,60;46;0,68;30;20,38
+322;Esponjas Doble Uso;0,50;39;0,57;28;15,85
+323;Esponjas escarchadas c/u;0,36;28;0,41;;0,00
+324;Esponjas Lustrillo;0,25;19;0,28;;0,00
+325;Estambre;3,00;231;3,40;5;16,99
+326;Estuche geométrico ;2,42;186;2,74;1;2,74
+327;Etiquetas para cuadernos ;0,80;62;0,91;7;6,34
+328;Etiquetas para uñas ;1,62;125;1,83;12;22,01
+329;Exactos pequeños;1,00;77;1,13;8;9,06
+330;Exfoliante para pies Jelly Spa;2,50;193;2,83;4;11,32
+331;Extensión eléctrica blanca- 3.6 m;2,93;226;3,32;;
+332;Extensión eléctrica naranja- 7.5 m;6,14;473;6,95;;
+333;Face Body (Cristal facial);1,00;77;1,13;2;2,26
+334;Fichas para anotar;0,00;0;0,00;71;0,00
+335;Filtro de agua ;9,00;693;10,19;2;20,38
+336;Flips de caja ;4,85;373;5,49;5;27,46
+337;Flips GRANDE 120gr;2,73;210;3,09;3;9,27
+338;Flips pequeño 28 gr;0,78;60;0,88;;0,00
+339;foa;48,00;3696;54,35;1;54,35
+340;Freegells ;0,35;27;0,40;;0,00
+341;Fructus 15 gr;0,17;13;0,19;;0,00
+342;Fruticas - Frunas;0,11;9;0,13;;0,00
+343;Fruty Aros pequeño ;0,50;39;0,57;;0,00
+344;Fundas protectoras ;0,18;14;0,20;;0,00
+345;Gachetas de lujo (FM);1,50;116;1,70;;0,00
+346;Galak tubito SAVOY ;0,51;39;0,58;20;11,55
+347;Galleta BELVITA HONY - KRAKER ;0,40;31;0,45;26;11,78
+348;Galleta Club Social Individual;0,35;27;0,40;6;2,38
+349;Galleta Club Social paquete;2,07;159;2,34;13;30,47
+350;Galleta Dani Chip Chocolate;0,16;12;0,18;45;8,15
+351;Galleta Festival ;0,50;39;0,57;5;2,83
+352;Galleta María Individual - Caledonia;0,20;15;0,23;;0,00
+353;Galleta María Individual - Puig;0,23;18;0,26;4;1,04
+354;Galleta María paquete- Caledonia de 6 unidades;1,08;83;1,22;;0,00
+355;Galleta María paquete- Caledonia de 9 unidades;1,42;109;1,61;;0,00
+356;Galleta María paquete- Puig;2,05;158;2,32;14;32,50
+357;Galleta Marilu individual 1 GALLETA;0,20;15;0,23;13;2,94
+358;Galleta Marilu individual 2 GALLETAS ;0,40;31;0,45;7;3,17
+359;Galleta Marilu paquete;2,47;190;2,80;;0,00
+360;Galleta Oreo;0,60;46;0,68;53;36,01
+361;Galleta Oreo - Fudge;0,66;51;0,75;4;2,99
+362;Galleta Soda;0,20;15;0,23;;0,00
+363;Galleta Soda paquete;1,95;150;2,21;;0,00
+364;Galleta Sorbeticos;0,50;39;0,57;;0,00
+365;Galleta tartaleta Tigo;1,00;77;1,13;37;41,90
+366;Galleta tip-top tubo;1,05;81;1,19;34;40,43
+367;Galletas Chips Ahoy - Individual;0,61;47;0,69;11;7,60
+368;Galletas Chips Ahoy - Paquete;3,75;289;4,25;1;4,25
+369;Galletas María Delicia;0,80;62;0,91;30;27,18
+370;Ganchetas de plástico grandes;1,20;92;1,36;12;16,31
+371;Ganchetas mariposas;1,10;85;1,25;2;2,49
+372;Ganchetas para secado -Toni&Guy (individual);0,40;31;0,45;2;0,91
+373;Ganchetas transparente de flores ;1,00;77;1,13;6;6,79
+374;Ganchitos de niña de dibujos;0,40;31;0,45;50;22,65
+375;Gancho negro para rollos ;0,60;46;0,68;4;2,72
+376;Gancho o pinzas para ropa - MADERA;1,44;111;1,63;7;11,41
+377;Gancho o pinzas para ropa - PLÁSTICO;1,58;122;1,79;7;12,52
+378;Gancho para el cabello ;0,38;29;0,43;;0,00
+379;Gancho para el cabello diseñados ;0,55;42;0,62;;0,00
+380;Ganchos de carpetas ;0,06;5;0,07;100;6,79
+381;Ganchos de niña piojito ;1,57;121;1,78;;0,00
+382;Ganchos de niña piojito juveniles ;1,00;77;1,13;3;3,40
+383;Garrafa de 20 litros;8,00;616;9,06;13;117,76
+384;Gatarina Astro;5,00;385;5,66;32;181,18
+385;Gatarina Gatsy;5,50;424;6,23;3;18,68
+386;Gatarina Mirringo;6,00;462;6,79;8;54,35
+387;Gatorade;1,50;116;1,70;14;23,78
+388;Gayetón;0,27;21;0,31;;0,00
+389;Gel para uña;2,71;209;3,07;;0,00
+390;Gel sólido - Vicovi;1,60;123;1,81;20;36,24
+391;Gelatina Frutiño - Comestible;0,85;65;0,96;39;37,54
+392;Gelatina para el cabello E. Night - Mediana;;0;0,00;;0,00
+393;Gelatina para el cabello E. Night - Pequeña;;0;0,00;;0,00
+394;Gelatina para el cabello Rolda-mediana 200 gr;3,83;295;4,34;13;56,38
+395;Gelatina para el cabello Rolda-pequeña 120 gr;2,30;177;2,60;15;39,07
+396;Gelatina Tigo - Comestible;1,05;81;1,19;35;41,61
+397;Gelatinas Jelly - mini;0,13;10;0,14;6;0,85
+398;Gema facial - Alice Story;1,00;77;1,13;12;13,59
+399;Gema facial blanca -Stickers corporales;1,03;79;1,17;12;14,00
+400;Getup Peanut Aldiva;0,15;12;0,17;;0,00
+401;Globos de número;1,50;116;1,70;25;42,46
+402;Globos individuales;0,13;10;0,14;1106;156,55
+403;Globos paquete  de 25 (surtidos);3,00;231;3,40;;0,00
+404;Glucómetro (combo de 3);30,00;2310;33,97;2;67,94
+405;Golpe Ranchero grande;2,80;216;3,17;;0,00
+406;Golpe Ranchero pequeño;0,88;68;1,00;20;19,93
+407;Gomitas Brusli - Bolsa;0,50;39;0,57;;
+408;Gomitas Play;0,68;52;0,77;;0,00
+409;Gomitas Trolli;0,50;39;0,57;;0,00
+410;Gomitas Trululu - Bolsa;0,95;73;1,08;6;6,45
+411;Gomitas Trululu Aros - Pequeñas;0,08;6;0,09;57;5,16
+412;Gomitas Trululu Feroz- Sirenas- Dragones;0,41;32;0,46;;0,00
+413;Guantes multiusos;1,10;85;1,25;;0,00
+414;Guillotina para uñas DE METAL;2,00;154;2,26;2;4,53
+415;Guillotina para uñas DE PLÁSTICO;1,20;92;1,36;7;9,51
+416;Guisante ;1,20;92;1,36;7;9,51
+417;Gusanos pote 3 por 1bs ;0,09;7;0,10;;0,00
+418;Gut-  Ajo cebolla y perejil ;0,82;63;0,93;27;25,07
+419;Gut- adobo completo ;0,60;46;0,68;25;16,99
+420;Gut- ajo amparito ;0,86;66;0,97;27;26,29
+421;Gut- Amparito colorante;0,60;46;0,68;35;23,78
+422;Gut- arroz con pollo;1,06;82;1,20;16;19,20
+423;Gut- de pollo;0,60;46;0,68;20;13,59
+424;Gut- onoto amparito ;0,70;54;0,79;29;22,99
+425;Gut- para carnes;0,63;48;0,71;20;14,15
+426;Gut- sabroseador;0,66;51;0,75;10;7,47
+427;Gut- Salsa para pasta - espaguetis;0,85;65;0,96;25;24,06
+428;Hall de menta;0,70;54;0,79;;0,00
+429;Haragan ;4,00;308;4,53;1;4,53
+430;Harina de Trigo Mary;1,61;124;1,82;15;27,35
+431;Harina Kaly ;1,10;85;1,25;;0,00
+432;Harina Mary- Maíz Blanco;1,20;92;1,36;41;55,71
+433;Harina PAN;1,20;92;1,36;67;91,04
+434;Harina PAN 2 KILOS;2,40;185;2,72;;
+435;Helados Chupis ;0,20;15;0,23;0;0,00
+436;Helados PALETAS de chocolate;1,33;102;1,51;100;150,60
+437;Helados TINITAS, BARQUILLAS Y BATI-BATI;1,00;77;1,13;100;113,24
+438;Hielera ;1,20;92;1,36;;0,00
+439;Hilos chinos - cabello;1,50;116;1,70;17;28,88
+440;Hilos pequeños;0,20;15;0,23;66;14,95
+441;Hisopos;0,90;69;1,02;12;12,23
+442;Hoja de colores NEÓN 250 UND ;0,07;5;0,08;200;15,85
+443;Hoja de examen ;0,17;13;0,19;120;23,24
+444;Hoja de papel fotográfico;1,00;77;1,13;56;63,41
+445;Hojas Blancas detalladas 10*5bs;0,08;6;0,09;;0,00
+446;Hojillas Dorco - azul - platinium - Individual;0,20;15;0,23;;0,00
+447;Hojillas Dorco - azul - platinium - paquete 5;0,90;69;1,02;16;16,31
+448;Hojillas Dorco - roja - individual;0,16;12;0,18;;0,00
+449;Hojillas Dorco - roja - paquete 5 ;0,80;62;0,91;15;13,59
+450;Huevos de chocolate ;0,30;23;0,34;;
+451;Huevos detallados;0,21;16;0,24;42;10,03
+452;Huevos Medio Cartón - Pequeños;;0;0,00;;0,00
+453;Humificador Colorful Egg;9,00;693;10,19;;0,00
+454;Humificador Flowep;5,00;385;5,66;;0,00
+455;Impresion de Rif / Con Clave y usuario;1,00;77;1,13;;0,00
+456;Impresiones a blanco y negro  ;1,00;77;1,13;;0,00
+457;Impresiones a color hoja competa ;2,00;154;2,26;;0,00
+458;Impresiones a color media hoja ;1,50;116;1,70;;0,00
+459;Impresiones B/N;0,22;17;0,25;;0,00
+460;Incrustación de metal perla ;1,92;148;2,18;;0,00
+461;Inyectadoras 3ml;0,30;23;0,34;39;13,25
+462;Jabón de Baño Anita;0,82;63;0,93;30;27,86
+463;Jabón de Baño Harmony;0,60;46;0,68;;0,00
+464;Jabón de Baño Medicare;0,70;54;0,79;;0,00
+465;Jabón de Baño Palmolive - pequeño;0,80;62;0,91;33;29,89
+466;Jabón de Baño Protex;1,61;124;1,82;;0,00
+467;Jabón de Baño Protex pequeño ;0,00;0;0,00;2;0,00
+468;Jabón de Baño puro avena;0,50;39;0,57;45;25,48
+469;Jabón de Baño Rexona;1,50;116;1,70;;0,00
+470;Jabón Dove;0,00;0;0,00;;0,00
+471;Jabón en Polvo Alive 1 Kg;2,81;216;3,18;29;92,28
+472;Jabón en Polvo Alive 1/2 Kg;1,50;116;1,70;86;146,07
+473;Jabón en Polvo Alive 200g;0,51;39;0,58;34;19,64
+474;Jabón en Polvo Vea 1/2 Kg;1,00;77;1,13;;0,00
+475;Jabon Liquido 1L;1,45;112;1,64;;0,00
+476;Jabon Liquido 1L LAVAPLATO;1,40;108;1,59;;0,00
+477;Jabón Líquido Medio Litro;0,70;54;0,79;;0,00
+478;Jabón líquido para bebé;2,05;158;2,32;12;27,86
+479;Jabón Moncler;1,39;107;1,57;;0,00
+480;Jabón Panela Azul Las Llaves ;2,00;154;2,26;14;31,71
+481;Jabón Panela Azul Las Llaves Bebé;1,10;85;1,25;;0,00
+482;Jabón Panela Azul M&K;0,58;45;0,66;;0,00
+483;Jabón Panela Azul Rombo;0,70;54;0,79;20;15,85
+484;Jabonera automática;4,50;347;5,10;2;10,19
+485;Jabonera normal;1,30;100;1,47;5;7,36
+486;Jarra de jugo pequeña;2,00;154;2,26;4;9,06
+487;Juego de herramientas 28 piezas;5;385;5,66;;
+488;Jugo PULP y Nutiva;0,42;32;0,48;25;11,89
+489;Jugo YUKY PAK;1,45;112;1,64;3;4,93
+490;Jugos de cartón de litro ;1,50;116;1,70;6;10,19
+491;Jugos Justy;0,97;75;1,10;20;21,97
+492;Kaliya Beauty (Máscarilla);3,00;231;3,40;2;6,79
+493;Karseel - sobre;1,00;77;1,13;24;27,18
+494;Kit de mouse y teclado;12,00;924;13,59;3;40,76
+495;Kit de primeros auxilios;8,50;655;9,63;5;48,13
+496;Labial Mágico  Baby- Magic Blush;0,50;39;0,57;19;10,76
+497;Labiales Miss Betty;1,25;96;1,42;18;25,48
+498;Labiales Stark - Color Cloud (normales);1,00;77;1,13;40;45,29
+499;Laca spray;4,00;308;4,53;;
+500;Lámpara para uñas;5,00;385;5,66;2;11,32
+501;Lámpara para uñas grande;17,62;1357;19,95;3;59,86
+502;Lámparas Jelly de mesa;10,00;770;11,32;;
+503;Lámparas reflectoras azules;3,00;231;3,40;5;16,99
+504;Lampiña;3,20;246;3,62;3;10,87
+505;Lapiceros de gel;0,50;39;0,57;;0,00
+506;Lapiceros o bolígrafos KORES - transparentes;0,60;46;0,68;31;21,06
+507;Lapiceros o bolígrafos KORES y STUDMAR - opacos;0,60;46;0,68;5;3,40
+508;Lapiceros o bolígrafos Paper mate o Kilométrico;0,60;46;0,68;31;21,06
+509;Lápiz de ojo - ceja;0,40;31;0,45;78;35,33
+510;Lápiz Kenco ;0,25;19;0,28;192;54,35
+511;Lápiz MONGOL ;0,28;22;0,32;70;22,19
+512;Lápiz MONGOL  CAJA ;3,10;239;3,51;5;17,55
+513;Lápiz turquoise HB prismacolor- Lápiz graduado H;0,40;31;0,45;33;14,95
+514;Lavaplatos axion ;1,20;92;1,36;37;50,28
+515;Lavaplatos Kuat 200gr;1,72;132;1,95;;0,00
+516;Leche Condensada CREMOR - MOCOCA;2,00;154;2,26;5;11,32
+517;Leche condensada de tubo;0,90;69;1,02;15;15,29
+518;Leche Don Bom 120 gr;1,20;92;1,36;;0,00
+519;Leche Don Bom 200 gr;2,71;209;3,07;18;55,24
+520;Leche Don Bom 400 gr;4,10;316;4,64;;0,00
+521;Leche Líquida;2,45;189;2,77;8;22,19
+522;Lentejas Mi Chacha 400 gr;2,50;193;2,83;10;28,31
+523;Lentejas Pantera 454gr;2,60;200;2,94;16;47,11
+524;Lentejas Venela 400 gr;;0;0,00;;0,00
+525;Libretas estampadas ;1,50;116;1,70;32;54,35
+526;Licencia ;2,00;154;2,26;;0,00
+527;Licras de Dama ;2,50;193;2,83;7;19,82
+528;Ligas;0,40;31;0,45;;0,00
+529;Ligas para el cabello SPARK;2,00;154;2,26;6;
+530;Liguitas para el cabello Carterita ;0,80;62;0,91;15;13,59
+531;Liguitas para el cabello KCKO- CAY;0,53;41;0,60;;0,00
+532;Liguitas para el cabello TPU;0,66;51;0,75;;0,00
+533;Lima negra - colores variados - 100/180;0,53;41;0,60;168;100,82
+534;Lima profesional Spongy;0,75;58;0,85;;0,00
+535;Limpia poceta - cepillo;4,50;347;5,10;2;10,19
+536;Liso y crespo Inteligente ;0,70;54;0,79;121;95,91
+537;Llaveros variados NUEVOS ;1,50;116;1,70;33;56,05
+538;Llaveros variados VIEJOS y pom pom ;1,00;77;1,13;19;21,51
+539;Lluvia de chocolate y colores ;0,50;39;0,57;59;33,40
+540;Luces de Bengala;0,50;39;0,57;;0,00
+541;Luces LED;7,94;611;8,99;;
+542;Luces navideñas ;4,00;308;4,53;7;31,71
+543;Macarillas para puntos negros;1,00;77;1,13;11;12,46
+544;Maíz dulce;3,00;231;3,40;2;6,79
+545;Maizina Americana 200gr;1,95;150;2,21;9;19,87
+546;Maizina Americana 90gr;1,10;85;1,25;14;17,44
+547;Maltas de botellas desechables;1,10;85;1,25;;
+548;Maltas de botellas retornabes;0,60;46;0,68;5;3,40
+549;Maltas de latas;1,20;92;1,36;21;28,54
+550;Manguera;15,00;1155;16,99;2;33,97
+551;Maní Jacks ;1,05;81;1,19;;0,00
+552;Mantequilla Adorita ;1,00;77;1,13;9;10,19
+553;Mantequilla Deline/ Primor;1,20;92;1,36;32;43,48
+554;Mantequilla Mavesa pequeña 250 gr;1,80;139;2,04;29;59,11
+555;Máquina de afeitar  - peluquería;22,85;1759;25,87;3;77,62
+556;Máquina de afeitar - Trimmer;7,00;539;7,93;6;47,56
+557;Máquina de afeitar 3en1;16,00;1232;18,12;5;90,59
+558;Máquinas patillera ;13,00;1001;14,72;4;58,88
+559;Marcadores acrílicos para pizarra;1,10;85;1,25;37;46,09
+560;Marcadores de agua Pack 12;2,50;193;2,83;;0,00
+561;Marcadores escolares miniatura;1,38;106;1,56;;0,00
+562;Marcadores Korellos - Kores;6,00;462;6,79;4;27,18
+563;Marcadores Permanentes IdeOffice - Studmark- Aprinta;1,90;146;2,15;62;133,39
+564;Marcadores Permanentes Sharpie - Ofimak;1,90;146;2,15;24;51,64
+565;Marcadores Permanentes Sharpie - Punta Fina;1,90;146;2,15;64;137,69
+566;Marcadores Sharpie  - paquete ;15,00;1155;16,99;1;16,99
+567;Marcadores Sharpie retractil - individual;1,20;92;1,36;;0,00
+568;Marshmallow;0,11;8;0,12;;
+569;Masa fácil;1,55;119;1,76;6;10,53
+570;Máscara de pestañas (rimel);1,10;85;1,25;30;37,37
+571;Máscara para pestañas - Rimel - Maybellin;2,00;154;2,26;12;27,18
+572;Máscaras;3,84;296;4,35;;
+573;Mascarilla pantene para el cabello ;0,80;62;0,91;;
+574;Mascarillas hidratantes;0,70;54;0,79;25;19,82
+575;Mayonesa Mavesa - KRAFT (Pequeña);2,20;169;2,49;30;74,74
+576;Mayonesa Mavesa (Grande);4,30;331;4,87;4;19,48
+577;Mechas locas pote ;1,51;116;1,71;3;5,13
+578;Mechas locas sobre ;0,20;15;0,23;;0,00
+579;Medias de Damas y Caballeros  3 pares ;1,00;77;1,13;3;3,40
+580;Mega Bit Individual;0,46;35;0,52;;0,00
+581;Memoria 16 GB;0,00;0;0,00;;0,00
+582;Memoria 32 GB;8,00;616;9,06;4;36,24
+583;Memoria 64 GB;10,00;770;11,32;4;45,29
+584;Millows ;0,08;6;0,09;;0,00
+585;Minas - Tubos;0,60;46;0,68;72;48,92
+586;Mini cornetas - Music;4,18;322;4,73;;
+587;Minty TAC- TIC-TAC;0,51;39;0,58;;
+588;Molde de mariposas para uñas ;2,00;154;2,26;5;11,32
+589;Molinillo de pies eléctrico;7,00;539;7,93;3;23,78
+590;Monedas de chocolate;0,15;12;0,17;74;12,57
+591;Monómero 118ml ;3,70;285;4,19;2;8,38
+592;Monómero 60ml;2,40;185;2,72;10;27,18
+593;Monómero 75ml ;3,00;231;3,40;7;23,78
+594;Mordisquitos;0,35;27;0,40;;0,00
+595;Mortadela 400 gr;2,00;154;2,26;2;4,53
+596;Mortadela pieza pequeña 500 gr;;0;0,00;;0,00
+597;Mostaza COMA 200g;1,42;109;1,61;19;30,55
+598;Mostrario de uñas ;2,00;154;2,26;5;11,32
+599;Mouse con cable;4,00;308;4,53;8;36,24
+600;Mouse inalámbrico ;5,00;385;5,66;;0,00
+601;Nebulizador Portatil Mesh;13,00;1001;14,72;1;14,72
+602;Nucita de tubo;1,28;99;1,45;7;10,15
+603;NutriBela ;0,80;62;0,91;211;191,14
+604;Nuttelini;0,30;23;0,34;;0,00
+605;Nylon - nailón 70 gr;1,23;95;1,39;;
+606;Oka Loka Cajita grande;;0;0,00;;0,00
+607;Oka Loka Cajita pequeña- Nanos;0,25;19;0,28;41;11,61
+608;Oka Loka Chicle polvo - Con paleta y sin paleta;0,27;21;0,31;46;14,22
+609;Oka loka fusión;0,35;27;0,40;;0,00
+610;Oka Loka Ovnis;0,30;23;0,34;;0,00
+611;Olla para cera depiladora;13,00;1001;14,72;;
+612;Once once ;0,90;69;1,02;;0,00
+613;Ovomaltina ;1,30;100;1,47;;0,00
+614;Oxímetro - Oximeter;5,00;385;5,66;1;5,66
+615;Pabilo;0,40;31;0,45;12;5,44
+616;Pala de mano;2,00;154;2,26;5;11,32
+617;Paleta de contorno y rubor 6 colores - Blush;2,00;154;2,26;;0,00
+618;Paleta de torta ;2,00;154;2,26;;0,00
+619;Paleta para los pies -  limpieza;2,00;154;2,26;2;4,53
+620;Paletas de COLORES ;2,34;180;2,65;6;15,90
+621;Paletas NATURALES ;1,62;125;1,83;10;18,34
+622;Palitos de chocolate;0,50;39;0,57;;0,00
+623;Palmerita;0,26;20;0,30;;0,00
+624;Palo de cepillo ;1,00;77;1,13;;0,00
+625;Palomitas de maíz;0,34;26;0,39;;0,00
+626;Pantis de Niña  2 x ;1,00;77;1,13;8;9,06
+627;Pañales G;0,28;22;0,32;16;5,07
+628;Pañales M;0,27;21;0,31;19;5,81
+629;Pañales P;0,25;19;0,28;20;5,66
+630;Pañales por paquetes de 09 - XG - Hugme;2,90;223;3,28;17;55,83
+631;Pañales por paquetes de 10 - G - Hugme;2,80;216;3,17;19;60,24
+632;Pañales por paquetes de 11 - M - Hugme;2,65;204;3,00;21;63,02
+633;Pañales por paquetes de 20 - P - Bebé;5,40;416;6,11;9;55,03
+634;Pañales XG;0,32;25;0,36;13;4,71
+635;Pañitos de cocina ;0,90;69;1,02;20;20,38
+636;Pañitos de cocina en set de 3 ;4,00;308;4,53;1;4,53
+637;Pañitos pequeño y los estampados;0,80;62;0,91;;0,00
+638;Pañitos unicolor de microfibras;1,00;77;1,13;;0,00
+639;Paño estampado;3,50;270;3,96;1;3,96
+640;Paño unicolor;6,00;462;6,79;;0,00
+641;Papas Pringles pequeñas;1,40;108;1,59;;0,00
+642;Papas Rulass;0,52;40;0,59;10;5,89
+643;Papel Bond ;0,40;31;0,45;430;194,76
+644;Papel Contac transparente;2,50;193;2,83;;0,00
+645;Papel de aluminio;1,50;116;1,70;14;23,78
+646;Papel de regalo - ;2,00;154;2,26;;0,00
+647;Papel Higiénico 2 rollos;0,76;59;0,86;13;11,19
+648;Papel Higiénico 4 rollos Rosal ROJO ;1,10;85;1,25;18;22,42
+649;Papel Higiénico 4 rollos ROSAL VERDE ;1,37;105;1,55;33;51,19
+650;Papel Higiénico Individual;0,36;28;0,41;22;8,97
+651;Papelón 500 gr;0,65;50;0,74;;0,00
+652;Parrillita;0,40;31;0,45;;0,00
+653;Pasta Capri  -   1kg - Corta;1,70;131;1,93;;
+654;Pasta Capri  1kg  - Larga;1,70;131;1,93;3;5,78
+655;Pasta Mary  1kg - Corta;1,97;152;2,23;19;42,38
+656;Pasta Oba / Bellini/ Mary -  500g - Corta;1,30;100;1,47;32;47,11
+657;Pasta Oba / Bellini/ Mary -  500g - Larga;1,30;100;1,47;11;16,19
+658;Pasta para pasticho ;1,30;100;1,47;;0,00
+659;Pastilla Acetaminofen;0,13;10;0,15;827;121,74
+660;Pastilla Amoxicilina - antibiótico;0,13;10;0,15;;0,00
+661;Pastilla amoxicilina+clav  - antibiótico;0,70;54;0,79;34;26,95
+662;Pastilla Aspirina;0,18;14;0,20;;0,00
+663;Pastilla Bactron ( TRIMETOPRIM) - METRONIDAZOL;0,19;14;0,21;132;27,65
+664;Pastilla Diclofenaco;0,13;10;0,15;106;15,60
+665;Pastilla Ibuprofeno 600-400 mg ;0,18;14;0,20;173;35,26
+666;Pastilla Ibuprofeno 800mg;;0;0,00;;0,00
+667;Pastilla Loperan;0,19;14;0,21;90;18,85
+668;Pastilla Loratadina- Desloratadina- CETIRIZINA ;0,13;10;0,15;137;20,17
+669;Pastilla Omeprasol;0,13;10;0,15;137;20,17
+670;Pastillas para limpiar inodoros-pocetas;0,50;39;0,57;10;5,66
+671;Pega de barra 25GR  IDEOFFICE;1,05;81;1,19;21;24,97
+672;Pega de barra Kore;0,00;0;0,00;;0,00
+673;Pega escolar blanca 40ML;0,65;50;0,74;9;6,62
+674;Pega Loka;0,40;31;0,45;19;8,61
+675;Pega Mosca ;0,25;19;0,28;84;23,78
+676;Pega para pestaña ARDELL;1,60;123;1,81;18;32,61
+677;Pega para pestaña SalonPro;2,00;154;2,26;12;27,18
+678;Pega para uña ;0,50;39;0,57;15;8,49
+679;Pega para uña con brocha ;0,80;62;0,91;;0,00
+680;Peine Bollet - Dance Famingo;0,80;62;0,91;4;3,62
+681;Peine Saca piojo ;0,53;41;0,60;10;5,97
+682;Pela papa;2,00;154;2,26;1;2,26
+683;Pelotas de center filled gum;0,18;14;0,20;;
+684;Pendrive de 128GB;15,00;1155;16,99;3;50,96
+685;Pendrive de 32GB;8,00;616;9,06;1;9,06
+686;Pendrive de 64GB;9,00;693;10,19;3;30,57
+687;Pepito Boli Bulls Familiar 60 gramos;0,67;52;0,76;;
+688;Pepito Boli Bulls Familiar 75 gramos;0,87;67;0,99;11;10,84
+689;Pepito ORIGINAL Familiar;;0;0,00;;0,00
+690;Pepito Súper Popy Familiar;0,85;65;0,96;12;11,55
+691;Pepitonas picantes;1,82;140;2,06;1;2,06
+692;Perfilador de cejas - Individuales;0,50;39;0,57;13;7,36
+693;Perfilador de cejas (set de 3 unidades);1,00;77;1,13;18;20,38
+694;Perfumes 100ml;4,45;343;5,04;18;90,70
+695;Perfumes 35ml - dama, caballeros y niños;1,50;116;1,70;25;42,46
+696;Perfumes 75 ml y 90 ml;2,00;154;2,26;;0,00
+697;Perfumes y cremas 35ml combo;2,00;154;2,26;1;2,26
+698;Perrarina 1 kg;2,50;193;2,83;;0,00
+699;Pestañas postizas - estuche de cartón;1,50;116;1,70;39;66,24
+700;Pestañas postizas - estuche transparente;1,80;139;2,04;127;258,86
+701;Picatodo;8,00;616;9,06;4;36,24
+702;Piedras de Swarovski - grande;3,10;239;3,51;12;42,12
+703;Piedras de Swarovski - pequeña;1,80;139;2,04;;
+704;Pigmento M&Y - para cejas semipermanente ;2,00;154;2,26;9;20,38
+705;Pigsi picante pequeño;0,27;21;0,31;;
+706;Pilas - Bateria control 27A;2,84;219;3,22;15;48,24
+707;Pilas Duracell - 2 pilas-;2,30;177;2,60;;0,00
+708;Pilas grandes - chinas - 4 UNIDADES;1,20;92;1,36;15;20,38
+709;Pilas pequeñas - chinas 2 UNIDADES ;0,60;46;0,68;68;46,20
+710;Pilas pequeñas - chinas 4 UNIDADES;1,00;77;1,13;;0,00
+711;Pilas redondas AG10 - 389A;1,20;92;1,36;30;40,76
+712;Pilas redondas CR2032 SPM;1,91;147;2,16;15;32,44
+713;Pinceles - escolares - Kit o Set de 10;3,90;300;4,42;1;4,42
+714;Pinceles - escolares - Kit o Set de 6 ;2,95;227;3,34;4;13,36
+715;Pinceles acrílicos para uñas - 5 unidades;2,50;193;2,83;7;19,82
+716;Pinceles gel para uñas - 5 unidades;1,70;131;1,93;;
+717;Pinceles grandes  - escolares - individuales;0,50;39;0,57;;0,00
+718;Pinceles para uñas -  individual -  nº 8 , nº 12 Nº10;1,80;139;2,04;81;165,10
+719;Pinceles para uñas -  kit de 15 piezas;3,00;231;3,40;15;50,96
+720;Pinceles para uñas -  kit de 7 piezas;2,70;208;3,06;2;6,11
+721;Pinceles pequeños - escolares - individuales;0,50;39;0,57;10;5,66
+722;Pingüinos de Chocolate;0,71;55;0,80;8;6,43
+723;Pintura al frío 30 cm;1,10;85;1,25;5;6,23
+724;Pintura al frío 60 cm;1,50;116;1,70;87;147,77
+725;Pintura de uña BASE COAT;1,50;116;1,70;58;98,51
+726;Pintura de uña TOP COAT;1,50;116;1,70;40;67,94
+727;Pintura Finish Meilis;1,50;116;1,70;;
+728;Pintura Pega Jelly;1,50;116;1,70;;
+729;Pintura Protein Bond;1,50;116;1,70;;
+730;Pinturas de uña - normales;0,95;73;1,08;184;197,94
+731;Pinturas de uña - semipermanentes- lámparas;1,50;116;1,70;459;779,63
+732;Pinza para pestaña ;0,70;54;0,79;2;1,59
+733;Pinza polygel;0,40;31;0,45;19;8,61
+734;Pinza saca cejas - individuales;1,00;77;1,13;32;36,24
+735;Pinzas para el cabello;1,00;77;1,13;;0,00
+736;Pirulin Original;0,66;51;0,75;;0,00
+737;Pirulin savor ;0,15;12;0,17;;0,00
+738;Pistola de silicon 20w;5,80;447;6,57;3;19,70
+739;Pitillos Dulces ;0,06;5;0,07;24;1,67
+740;Plagatos caja completa;3,11;239;3,52;;0,00
+741;Plagatos espiral individual;0,31;24;0,35;;0,00
+742;Plancha para el cabello;28,00;2156;31,71;1;31,71
+743;Plancha para el cabello 450°F;17,00;1309;19,25;;
+744;Plantillas de letras;1,60;123;1,81;1;1,81
+745;Plantillas de Orejitas y dos x 2$;0,75;58;0,85;;0,00
+746;Plastificación pequeña ;1,00;77;1,13;200;226,47
+747;Plastilinas 08 barras;2,50;193;2,83;;0,00
+748;Plastilinas 12 colores;2,80;216;3,17;6;19,02
+749;Platos desechables - paquete;1,00;77;1,13;7;7,93
+750;Platos llanos mediano;0,60;46;0,68;9;6,11
+751;Platos para mascotas;2,16;166;2,45;;
+752;Pliego de foami escarchados - Colores Variados;0,90;69;1,02;51;51,98
+753;Pliego de foami unicolor - variados;0,60;46;0,68;156;105,99
+754;Pliego de papel de seda;0,36;28;0,41;49;19,97
+755;Pliego papel crepe - colores variados;1,00;77;1,13;63;71,34
+756;Polvo acrílico - all - in - one -  Yuan Quan;1,90;146;2,15;;0,00
+757;Polvo acrílico EzFlow;2,80;216;3,17;33;104,63
+758;Polvo acrílico Max Glow;4,27;329;4,84;21;101,54
+759;Polvo acrílico Nail Arte System Luminous;1,20;92;1,36;9;12,23
+760;Polvo chiripas dorado;0,35;27;0,40;5;1,98
+761;Polvo chiripas dorado powder;0,16;12;0,18;21;3,80
+762;Polvo Compacto Clineque sencillo ;1,04;80;1,18;4;4,71
+763;Polvo Compacto doble- Clinique;2,20;169;2,49;;0,00
+764;Polvo Compacto Mon-reve;1,04;80;1,18;6;7,07
+765;Polvo de Hornear;0,35;27;0,40;57;22,59
+766;Polvo decolorante ;1,15;89;1,30;13;16,93
+767;Polvo Hadas;1,80;139;2,04;5;10,19
+768;Polvo Mac doble compartimiento ;3,00;231;3,40;35;118,90
+769;Polygen 30ml;1,60;123;1,81;3;5,44
+770;Poncheras;4,00;308;4,53;2;9,06
+771;Portaminas brillantes y Kores;1,00;77;1,13;20;22,65
+772;Pote de agua reciclable;9,60;739;10,87;;
+773;Prestobarba Dorco;0,30;23;0,34;54;18,34
+774;Prestobarba Dorco paquete de 5 unidades;1,10;85;1,25;;0,00
+775;Prestobarba Gillette - 2 hojllas;1,29;99;1,46;6;8,76
+776;Prestobarba Gillette - 3 hojllas;2,11;162;2,39;;
+777;Prestobarba Max Extreme de 3 hojillas;0,50;39;0,57;79;44,73
+778;Pulsera de cordón;1,6;123;1,81;;
+779;Puntero para uñas;1,60;123;1,81;15;27,18
+780;Qualimax 15 gramos;0,40;31;0,45;;0,00
+781;Queso Blanco- Duro;6,50;501;7,36;15;110,40
+782;Quita pelusas eléctrico;8,00;616;9,06;;
+783;Rack charger - 65w;9,10;701;10,30;;
+784;Raquety;0,63;49;0,72;;0,00
+785;Rasuradora -afeitadora- Lingke;6,14;473;6,95;;
+786;Rayador  Grande;4,00;308;4,53;;0,00
+787;Rayador  pequeño ;1,50;116;1,70;5;8,49
+788;Rayador de acero inoxidable ;3,81;293;4,31;4;17,26
+789;Recolector de orina y heces;0,40;31;0,45;107;48,46
+790;Recortadora de cejas - Fugetsu;3,24;249;3,67;6;22,01
+791;Referencias Personales;0,57;44;0,64;;0,00
+792;Refrescos 1 Litros ;0,85;65;0,96;190;182,88
+793;Refrescos 1 y medio ;1,00;77;1,13;26;29,44
+794;Refrescos 2 Litros Glup;1,24;95;1,40;177;248,53
+795;Refrescos 2 Litros Golden;1,30;100;1,47;;
+796;Refrescos de BOMBITA;0,50;39;0,57;67;37,93
+797;Regla Individual Kores ;2,80;216;3,17;6;19,02
+798;Regla Individual marca Mayka;0,80;62;0,91;8;7,25
+799;Regleta de tres tomas;3,00;231;3,40;1;3,40
+800;Regleta profesional;10,00;770;11,32;3;33,97
+801;Reloj básicos;7,00;539;7,93;4;31,71
+802;Reloj inteligente 1 correa;10,00;770;11,32;10;113,24
+803;Reloj inteligente 2 correas ;15,00;1155;16,99;5;84,93
+804;Reloj inteligente 7 correas;20,00;1540;22,65;6;135,88
+805;Reloj inteligente -sencillo;7,00;539;7,93;;0,00
+806;Removedor de cutícula en aceite;1,80;139;2,04;37;75,41
+807;Removedor de cutícula en crema;1,90;146;2,15;5;10,76
+808;Removedor Magi y YanYang;1,90;146;2,15;31;66,70
+809;Repujador de cutícula ;0,78;60;0,88;17;15,02
+810;Repujador de cutícula de madera (Palito de naranja);0,13;10;0,15;124;18,53
+811;Repujador de cutícula multi- funtion  (CROMADO);1,00;77;1,13;10;11,32
+812;Repujador duo cutícula  y lima (Nalamei);1,00;77;1,13;7;7,93
+813;Resaltadores Foska - colores variados;0,60;46;0,68;;0,00
+814;Resaltadores Studmark - colores variados;1,00;77;1,13;32;36,24
+815;Resma de hojas;7,75;597;8,78;13;114,08
+816;Rikito Picante Familiar;1,09;84;1,23;3;3,70
+817;Rimocoo - tónico humectante de la piel;2,00;154;2,26;2;4,53
+818;Rizador de pestañas eléctrico A418- Eyelash Curler;6,11;470;6,92;3;20,76
+819;RJ-45 PUNTA DE INTERNET 4X 1$;1,00;77;1,13;71;80,40
+820;Rodillera de presión;10,00;770;11,32;3;33,97
+821;Rollo de punto;0,80;62;0,91;18;16,31
+822;Rubor Mágic Blush y S.F.R.Color ;1,65;127;1,87;3;5,61
+823;Rubor pequeño ;1,00;77;1,13;1;1,13
+824;Ruffles de queso y picante (PEQUEÑA);1,50;116;1,70;;0,00
+825;Ruffles Queso Familiar 125g;3,60;277;4,08;4;16,31
+826;Sacapunta con depósito automático;1,00;77;1,13;;0,00
+827;Sacapunta con depósito grande Studmark;1,40;108;1,59;2;3,17
+828;Sacapunta con depósito ITECA;0,75;58;0,85;14;11,89
+829;Sacapunta con depósito pequeño;1,20;92;1,36;;0,00
+830;Sacapunta de hierro pequeño;0,70;54;0,79;21;16,65
+831;Sacapunta de plástico pequeño;0,27;21;0,31;22;6,75
+832;Sal 1 kg;0,40;31;0,45;54;24,46
+833;Sal 1/2 Kg;0,25;19;0,28;3;0,85
+834;Sal 100g;0,09;7;0,10;10;0,96
+835;Salchichas 1kg;5,00;385;5,66;1;5,66
+836;Salricas individuales;0,80;62;0,91;3;2,72
+837;Salsa agridulce LA CHINA - Individual;1,80;139;2,04;29;59,11
+838;Salsa de tomate - Coma;1,55;119;1,76;14;24,57
+839;Salsa de Tomate Fergo peq.;1,29;99;1,46;9;13,15
+840;Salsa de tomate Ketchup Flores , la Giralda, FERGO ;1,80;139;2,04;5;10,19
+841;Salsa de Tomate Pampero grande;;0;0,00;;0,00
+842;Salsa de Tomate Pampero peq.;1,83;141;2,07;9;18,65
+843;Salsa inglesa LA CHINA - Individual;1,80;139;2,04;4;8,15
+844;Salsa inglesa, soya, ajo NAYBA - Combo;2,12;163;2,40;8;19,20
+845;Salsa inglesa, soya, ajo NAYBA - Individual;0,71;55;0,80;;0,00
+846;Salsa soya  LA CHINA - Individual;1,80;139;2,04;4;8,15
+847;Saltitacos - Crakeñas- Individuales;0,77;59;0,87;6;5,23
+848;Saltitacos - Salricas  de 7 paquetes;;0;0,00;;0,00
+849;Saltitacos - Salricas individual;0,66;51;0,75;;
+850;Samba ;0,00;0;0,00;;0,00
+851;Samba PEQUEÑA;0,53;41;0,60;63;37,81
+852;Samy de Chocolate;0,20;15;0,23;;0,00
+853;Sardinas;0,73;56;0,83;22;18,19
+854;Secador;20,00;1540;22,65;2;45,29
+855;Separador de dedos ;1,00;77;1,13;5;5,66
+856;Servilletas;1,22;94;1,38;20;27,63
+857;Set de brochas - Paquete;3,00;231;3,40;1;3,40
+858;Set de manicure (GRANDE);11,51;886;13,03;;0,00
+859;Set de manicure (PEQUEÑO);6,00;462;6,79;;0,00
+860;Set piojitos mas colitas;2,00;154;2,26;;0,00
+861;Silicon Barra Gruesa;0,84;65;0,95;57;54,22
+862;Silicon Barra pequeño ;0,42;32;0,47;84;39,66
+863;Silicon líquido de 100 mm;2,60;200;2,94;1;2,94
+864;Silicon líquido de 30 mm;1,00;77;1,13;;0,00
+865;Silicon líquido de 60 mm;1,50;116;1,70;;0,00
+866;Sobre de panelada de limón ;0,31;24;0,35;28;9,83
+867;Sobre Manila- Tamaño Carta;0,35;27;0,40;93;36,86
+868;Sobre Manila- Tamaño Oficio;0,45;35;0,51;59;30,06
+869;Sobre plástico;1,25;96;1,42;18;25,48
+870;Sócates;0,50;39;0,57;27;15,29
+871;Sombra -paleta 35 tonos - ;6,70;516;7,59;;0,00
+872;Sombra para cejas Miss Fon;1,00;77;1,13;23;26,04
+873;Sombra para ojos NUDE;3,00;231;3,40;9;30,57
+874;Sombra Seven Cool 5 tonos;2,00;154;2,26;;
+875;Sopa Maggi;1,34;103;1,52;21;31,86
+876;Speed de lata;0,75;58;0,85;27;22,93
+877;Speed de litro;1,20;92;1,36;10;13,59
+878;Spray para el cabello de colores;5,75;443;6,51;;
+879;Suavitel Grande 360ml;1,70;131;1,93;;0,00
+880;Suavitel pequeño;0,95;73;1,08;58;62,39
+881;Súper Coco Barra;0,35;27;0,40;;0,00
+882;Supercoco CEREAL ;0,50;39;0,57;;0,00
+883;Susy;1,12;86;1,27;;0,00
+884;Tabacos;0,33;25;0,37;41;15,09
+885;Tableta de dibujo - LCD PANEL;7,00;539;7,93;2;15,85
+886;Tacos para uñas ;0,60;46;0,68;22;14,95
+887;Takis de fuego;1,12;86;1,27;;0,00
+888;Talco grande MOMI 200gr;1,55;119;1,76;;0,00
+889;Talco grande para Bebé 200gr;2,10;162;2,38;13;30,91
+890;Talco para los pies BERNICE;1,37;105;1,55;6;9,27
+891;Talco para los pies pequeño BOROCANFOR;1,33;102;1,51;5;7,53
+892;Tamarindo ;0,35;27;0,40;;0,00
+893;Tángana - tangana de 350ml;2,70;208;3,06;;
+894;Tapabocas ECONÓMICOS ;0,10;8;0,11;38;4,30
+895;Tapabocas KN95;0,40;31;0,45;65;29,44
+896;Tapas de botellones;0,24;19;0,27;;0,00
+897;Taza conservadora - escolares - pequeña;1,00;77;1,13;22;24,91
+898;Taza conservadora grande;2,50;193;2,83;2;5,66
+899;Taza conservadora IM;3,42;263;3,87;4;15,49
+900;Taza conservadora mediana;2,00;154;2,26;9;20,38
+901;Taza de almuerzo;2,50;193;2,83;2;5,66
+902;Taza de almuerzo Inoxplas;3,42;263;3,87;6;23,24
+903;Taza para café ;0,50;39;0,57;8;4,53
+904;Taza para sopa - Grande ;1,20;92;1,36;6;8,15
+905;Taza para sopa - Mediana ;1,00;77;1,13;;0,00
+906;Taza para sopa - Pequeña ;0,80;62;0,91;7;6,34
+907;Teipe negro- Eléctrico COBRA ;1,00;77;1,13;12;13,59
+908;Temperas Yogui 6 colores - caja;2,65;204;3,00;2;6,00
+909;Tenedor de metal;0,50;39;0,57;27;15,29
+910;Tensiómetro digital (inteligente);20,00;1540;22,65;3;67,94
+911;Tensiómetro digital del que queda uno;18,00;1386;20,38;1;20,38
+912;Tensiómetro manual;20,00;1540;22,65;3;67,94
+913;Termo Vacuum 500ml;7,00;539;7,93;2;15,85
+914;Termómetro de mercurio;5,00;385;5,66;;0,00
+915;Termómetro digital;5,00;385;5,66;1;5,66
+916;Termos en combo (3);10,00;770;11,32;3;33,97
+917;Tijera escolar - punta roma - económica;0,60;46;0,68;8;5,44
+918;Tijera escolar - punta roma - Estol- Scissors;1,50;116;1,70;5;8,49
+919;Tinte AMG sin amoniaco;2,50;193;2,83;11;31,14
+920;Tinte Hanzhixiu;0,60;46;0,68;;0,00
+921;Tinte la CHINA ;2,00;154;2,26;;0,00
+922;Tinte la CHINA - pequeño;0,80;62;0,91;15;13,59
+923;Tinte Negro  Bigen;;0;0,00;;0,00
+924;Tintes kolestinte ;3,00;231;3,40;38;129,09
+925;Tintes Tans;1,30;100;1,47;;0,00
+926;Tiras o correas para teléfono o llaveros;1,10;85;1,25;;0,00
+927;Tiza de colores ;0,65;50;0,74;5;3,68
+928;Tizas de colores - caja;1,00;77;1,13;5;5,66
+929;Toallas Diarias paquete - Vea - Olala - Hugme;0,74;57;0,84;60;50,28
+930;Toallas Humedas  de 50 hojas HUGME;1,00;77;1,13;70;79,26
+931;Toallas Humedas  de 50 hojas MOMI;1,10;85;1,25;16;19,93
+932;Toallas Humedas  de 80 hojas HUGME;1,70;131;1,93;1;1,93
+933;Toallas o paños colgantes;0,87;67;0,99;;
+934;Toallas Sanitarias INDIVIDUALES;0,13;10;0,15;29;4,27
+935;Toallas Sanitarias paquete HUGME;1,00;77;1,13;67;75,87
+936;Toallas WANITA MORADAS;1,51;116;1,71;11;18,81
+937;Toallas WANITA ROSADAS;0,87;67;0,99;13;12,81
+938;Toallín Don Toallín;1,00;77;1,13;9;10,19
+939;Tobilleras ;2,00;154;2,26;13;29,44
+940;Tobos para agua ;4,00;308;4,53;1;4,53
+941;Tocinetikas;0,90;69;1,02;;0,00
+942;Tocinetikas Familiar;1,00;77;1,13;;0,00
+943;Tocy Bulls Familiar;0,90;69;1,02;;0,00
+944;Toddy ;2,16;166;2,45;7;17,12
+945;Toronto de chocolate;0,61;47;0,69;36;24,87
+946;Tortillas Jacks Picante ;1,31;101;1,48;;0,00
+947;Tostones Tom Familiar 80 gr;1,24;95;1,40;38;53,36
+948;Tostones Tom Familiar XL 140 gr;1,72;132;1,95;9;17,53
+949;Tostones Tom pequeño;0,40;31;0,45;28;12,68
+950;Tozinetas Fred Familiar;1,36;105;1,54;1;1,54
+951;Tozinetas Fred pequeña;0,40;31;0,45;12;5,44
+952;Transcripción de documentos con impresión;1,20;92;1,36;;0,00
+953;Transcripción de documentos sin impresión;1,20;92;1,36;;0,00
+954;Transmisor cenicero bluetooth - Car FM player;9,00;693;10,19;2;20,38
+955;Trident - tipo chicle-individual;0,13;10;0,15;125;18,40
+956;Twistikeso;3,5;270;3,96;;
+957;Uñas curvas- paquete (NALL 500 PCS);6,00;462;6,79;3;20,38
+958;Uñas postizas - Jelly Tips caja;4,30;331;4,87;6;29,21
+959;Uñas postizas - Jelly Tips por blister (24 uñas);0,60;46;0,68;15;10,19
+960;Uñas postizas - normales;1,50;116;1,70;0;0,00
+961;Uñas postizas decoradas;2,50;193;2,83;2;5,66
+962;Utensilios de cocina;2,00;154;2,26;7;
+963;Vainilla 250 ml;0,80;62;0,91;37;33,52
+964;Vajilla - combo;10,00;770;11,32;1;11,32
+965;Vaselina cartón - Lipbalm;0,90;69;1,02;6;6,11
+966;Vaselina labial - Lip Therapy;4,50;347;5,10;6;30,57
+967;Vaselina moustruo;0,60;46;0,68;20;13,59
+968;Vaselina pure petroleum jelly 50ml;4,50;347;5,10;6;30,57
+969;Vaso escolar grande;1,00;77;1,13;2;2,26
+970;Vaso escolar pequeño;0,60;46;0,68;1;0,68
+971;Vaso para café;0,50;39;0,57;10;5,66
+972;Vaso para jugo ;0,50;39;0,57;0;0,00
+973;Vasos con luces ;5,00;385;5,66;2;11,32
+974;Vasos desechables 77;2,00;154;2,26;4;9,06
+975;Vasos desechables 89;1,50;116;1,70;2;3,40
+976;Velas;0,25;19;0,28;154;43,60
+977;Velas de cumpleaños - mágicas;1,05;81;1,19;5;5,94
+978;Velas de cumpleaños - normales;0,60;46;0,68;13;8,83
+979;Ventilador pequeño;6,00;462;6,79;2;13,59
+980;Viki Viki  - Wiki- Wiki ;0,50;39;0,57;58;32,84
+981;Viki Viki  - Wiki- Wiki - Nueva imagen;1,13;87;1,28;24;30,71
+982;Vinagre 500ML Capital;0,90;69;1,02;18;18,34
+983;Yesquero - Encendedor de cocina;0,63;49;0,71;6;4,28
+984;Yesquero - Normal;0,20;15;0,23;36;8,15
+985;Zarcillos de argolla ;2,00;154;2,26;32;72,47
+986;Zarcillos grandes DORADOS ;2,00;154;2,26;;0,00
+987;Zarcillos por pares - estuche blanco;1,20;92;1,36;29;39,41
+988;Zarcillos por pares - pequeños ;0,50;39;0,57;9;5,10
+989;Zarcillos y cadena - Juego ;1,60;123;1,81;27;48,92
+990;Pan Andre Go;2,20;200;1,80;30;40,50
+990;Malta Andre Go;2,20;200;1,80;30;40,50
