@@ -1,12 +1,12 @@
 ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 1;Aceite corporal 100ml;2,50;193;2,83;5;14,15
-2;Aceite Ideal 250 ml ;1;77;1,13;;
+2;Aceite Ideal 250 ml ;1;77;1,13
 3;Aceite Litro;3,20;246;3,62;16;57,98
 4;Aceite para bebé 100ml;3,00;231;3,40;5;16,99
 5;Aceite para bebé 200ml;5,00;385;5,66;5;28,31
 6;Aceite para el cabello AMG-HAIR;2,7;208;3,06;12;36,69
 7;Aceite Vatel 250 ml ;1,65;127;1,87;20;37,37
-8;Acemitas paquete;2,00;154;2,26;;
+8;Acemitas paquete;2,00;154;2,26
 9;Aceptar bonos - aceptar - Transferir - ;0,27;21;0,31;;0,00
 10;Acetonas Clean Smooth;1,32;102;1,49;10;14,95
 11;Acetonas Valmy- Shiny- M&A- Lidia Beauty;1,83;141;2,07;10;20,72
@@ -42,7 +42,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 41;Audífonos alámbricos - Samsung - Music;4,50;347;5,10;5;25,48
 42;Audífonos alámbricos - Tecno - Infinix;1,83;141;2,07;8;16,58
 43;Audífonos Inalámbricos  de cajitas;7,00;539;7,93;4;31,71
-44;Audífonos Inalámbricos  de cajitas -TWS - V5.4;6,00;462;6,79;;
+44;Audífonos Inalámbricos  de cajitas -TWS - V5.4;6,00;462;6,79
 45;Audífonos Inalámbricos P47 - ;7,00;539;7,93;4;31,71
 46;Avena 100 gr;0,60;46;0,68;3;2,04
 47;Avena Pantera 400 gr;1,60;123;1,81;;0,00
@@ -51,10 +51,10 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 50;Azúcar 200 gr;0,43;33;0,49;13;6,33
 51;Azúcar 500 gr;1,03;79;1,16;;0,00
 52;Banda o cinta para cera - Depiladora-;2,20;169;2,49;6;14,95
-53;Banda para uñas / Polish Remover Pads;3,00;231;3,40;;
+53;Banda para uñas / Polish Remover Pads;3,00;231;3,40
 54;Banderin FELIZ CUMPLEAÑOS;1,25;96;1,42;17;24,06
 55;Barra Lokiño;0,08;6;0,09;3;0,27
-56;Base Fit;1,10;85;1,25;;
+56;Base Fit;1,10;85;1,25
 57;Base MAC - Matte- Matchmaster -Foundation;2,50;193;2,83;23;65,11
 58;Base Miracle BB;1,85;142;2,09;5;10,47
 59;Batidor de mano;0,70;54;0,79;9;7,13
@@ -66,10 +66,10 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 65;Block de dibujo ;4,00;308;4,53;3;13,59
 66;Block de rayas y cuadriculado;2,50;193;2,83;9;25,48
 67;Block papel lustrillo  (por hoja en 0,30 = 10 Bs.);1,50;116;1,70;6;10,19
-68;Bocadillos;0,14;11;0,16;;
+68;Bocadillos;0,14;11;0,16
 69;Boka - sobre para bebidas;0,39;30;0,44;517;228,32
 70;Bolsa de 1/4 de kilo ;0,00;0;0,00;12;0,00
-71;Bolsa de agua reciclable;5,75;443;6,51;;
+71;Bolsa de agua reciclable;5,75;443;6,51
 72;Bolsa de medio kilo 1/2;0,17;13;0,20;12;2,35
 73;Bolsa Negra 25 kilos ;0,17;13;0,20;51;9,99
 74;Bolsa Negra 40 kilos - Basura;0,30;23;0,34;101;34,31
@@ -77,12 +77,12 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 76;Bolsas de regalo grandes;2,00;154;2,26;10;22,65
 77;Bolsas de regalo medianas;1,50;116;1,70;27;45,86
 78;Bolsas de regalo pequeñas;1,20;92;1,36;21;28,54
-79;Bomba de carnaval paquete;0,4;31;0,45;;
+79;Bomba de carnaval paquete;0,4;31;0,45
 80;Bombas de agua - Dispensadores;6,47;498;7,33;3;21,98
-81;Bombas de carnaval con pitillos - 37 pcs;0,91;70;1,03;;
+81;Bombas de carnaval con pitillos - 37 pcs;0,91;70;1,03
 82;Bombillo - amarillo;0,50;39;0,57;47;26,61
 83;Bombillo - blanco - Led F&M;1,00;77;1,13;8;9,06
-84;Bombillo - blanco - Smartcharte;2,00;154;2,26;19;43,03
+84;Bombillo - blanco - Smartcharte;2,00;154;2,26;18;43,03
 85;Bombillo - blanco -Hugme- con cable de carga- emergencia 20W;3,00;231;3,40;6;20,38
 86;Bombillos de 60w;3,80;293;4,30;6;25,82
 87;Bombillos de 80w;5,10;393;5,78;5;28,88
@@ -93,12 +93,12 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 92;Botellones 20 litros;6,00;462;6,79;5;33,97
 93;Brillo labial Lip Gloss, wow, piña;0,53;41;0,60;49;29,41
 94;Brillo para uñas;0,90;69;1,02;24;24,46
-95;Brocha para rubor - grande;2,50;193;2,83;;
+95;Brocha para rubor - grande;2,50;193;2,83
 96;Brocha para rubor - pequeña;1,50;116;1,70;3;5,10
-97;Builder gel - ibd;3,60;277;4,08;;
-98;Cable cargador 400;1,20;92;1,36;;
+97;Builder gel - ibd;3,60;277;4,08
+98;Cable cargador 400;1,20;92;1,36
 99;Cable HDMI;4,00;308;4,53;5;22,65
-100;Cable para internet Cat5e para exteriores;0,44;33;0,49;;
+100;Cable para internet Cat5e para exteriores;0,44;33;0,49
 101;Cable USB tipo C ;1,79;138;2,03;6;12,16
 102;Café 100 gr  Montaña;1,30;100;1,47;47;69,19
 103;Café 100 gr Amanecer;1,40;108;1,59;56;88,78
@@ -107,7 +107,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 106;Café 200 gr FAMA DE AMÉRICA;2,40;185;2,72;16;43,48
 107;Café 200 gr Montaña;3,00;231;3,40;10;33,97
 108;Café 250 gr Amanecer Gormet;;0;0,00;;0,00
-109;Café 250 gr Café FAMA DE AMÉRICA;3,00;231;3,40;;
+109;Café 250 gr Café FAMA DE AMÉRICA;3,00;231;3,40
 110;Café 250 gr Café MADRID;2,76;213;3,13;10;31,25
 111;Caja de colores bicolor - variados;3,00;231;3,40;;0,00
 112;Caja de colores KORES (12 und);3,41;263;3,86;7;27,03
@@ -128,7 +128,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 127;Cargador de telefónos - Infinix 2 en 1;7,68;591;8,70;6;52,18
 128;Cargador de telefónos - Travel adapter - sin cable;3,57;275;4,04;6;24,26
 129;Cargador de telefónos - V-men 3.IA;2,70;208;3,06;2;6,11
-130;Cargador LQ -LT-C06;9,00;693;10,19;;
+130;Cargador LQ -LT-C06;9,00;693;10,19
 131;Carpeta Marrón - Tamaño Carta;1,00;77;1,13;47;53,22
 132;Carpeta Marrón - Tamaño oficio ;1,00;77;1,13;50;56,62
 133;Carpetas Manila- Tamaño Carta;0,35;27;0,40;36;14,27
@@ -145,18 +145,18 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 144;Cepillo de barrer-Completo;3,41;263;3,86;9;34,75
 145;Cepillo de lavar;1,10;85;1,25;1;1,25
 146;Cepillo expandible - esqueleto;2,10;162;2,38;6;14,27
-147;Cepillo grande para uñas ;1,00;77;1,13;;
+147;Cepillo grande para uñas ;1,00;77;1,13
 148;Cepillo masajeador de mascotas;4,85;373;5,49;1;5,49
 149;Cepillo para el cabello ;1,60;123;1,81;;0,00
 150;Cepillo para los pies  de cuatro usos;1,44;111;1,63;6;9,78
-151;Cepillo pequeño para uñas ;0,65;50;0,74;;
+151;Cepillo pequeño para uñas ;0,65;50;0,74
 152;Cepillo secador ;14,00;1078;15,85;1;15,85
 153;Cepillos de Barrer - sin palo;2,00;154;2,26;;0,00
 154;Cepillos de Dientes Alident - Colgate - Oral B;1,15;89;1,30;27;35,16
 155;Cepillos de Dientes ECONÓMICOS ;0,60;46;0,68;7;4,76
 156;Cera Azuleno - depiladora;6,17;475;6,99;2;13,97
 157;Cera granulada depiladora;2,50;193;2,83;6;16,99
-158;Cera para el cabello;2,50;193;2,83;;
+158;Cera para el cabello;2,50;193;2,83
 159;Cera para pisos;1,60;123;1,81;;0,00
 160;Cereal FRISGO;2,53;195;2,86;2;5,73
 161;Cereales Maizoritos  - Fruty Aros pequeño - individuales;0,50;39;0,57;;0,00
@@ -245,11 +245,11 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 244;Compotas Osole ;0,90;69;1,02;100;101,91
 245;Condimentos: adobo,ajo, color, onoto, orégano, saboseador, salsa para pasta, carmencita, comino;0,27;21;0,31;270;83,47
 246;Condimentos:clavitos, manzanilla, pimienta negra, anis dulce, laurel, levadura, bicarbonato;0,40;31;0,45;188;85,15
-247;Control remoto de TV BOX;6,00;462;6,79;;
+247;Control remoto de TV BOX;6,00;462;6,79
 248;Copa para uña ;0,80;62;0,91;24;21,74
 249;Copias ;0,16;12;0,18;;0,00
 250;Copias a color ;1,00;77;1,13;;0,00
-251;Corneta para PC de barra;17,26;1329;19,54;;
+251;Corneta para PC de barra;17,26;1329;19,54
 252;Corneta Portable  -CAJÓN- inalámbrica;8,00;616;9,06;5;45,29
 253;Corneta Portable  -JBL- inalámbrica;10,00;770;11,32;3;33,97
 254;Corrector de ojeras;1,30;100;1,47;40;58,88
@@ -280,9 +280,9 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 279;Crispisitos pequeños;0,40;31;0,45;18;8,15
 280;Cuadernos;0,86;66;0,97;;0,00
 281;Cubiertos desechables;1,00;77;1,13;23;26,04
-282;Cubitos Laila;0,13;10;0,15;;
+282;Cubitos Laila;0,13;10;0,15
 283;Cubitos Maggi;0,25;19;0,28;347;98,23
-284;Cucharas de madera;1,22;94;1,38;;
+284;Cucharas de madera;1,22;94;1,38
 285;Cuchillos - combo;12,00;924;13,59;3;40,76
 286;Curitas - Medicare;0,11;8;0,12;200;24,23
 287;Curriculum;1,50;116;1,70;;0,00
@@ -306,8 +306,8 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 305;Dorito pequeño;1,30;100;1,47;18;26,50
 306;Ducream ;0,30;23;0,34;2;0,68
 307;DVD Vírgenes;0,80;62;0,91;50;45,29
-308;Efecto aurora de cuatro colores;4,04;311;4,57;;
-309;Efecto aurora y espejo pequeños;1,50;116;1,70;;
+308;Efecto aurora de cuatro colores;4,04;311;4,57
+309;Efecto aurora y espejo pequeños;1,50;116;1,70
 310;Engrapadora mini ;4,50;347;5,10;5;25,48
 311;Escarcha ;0,50;39;0,57;7;3,96
 312;Escarcha para uñas (COMBO DE 6);2,50;193;2,83;5;14,15
@@ -329,8 +329,8 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 328;Etiquetas para uñas ;1,62;125;1,83;12;22,01
 329;Exactos pequeños;1,00;77;1,13;8;9,06
 330;Exfoliante para pies Jelly Spa;2,50;193;2,83;4;11,32
-331;Extensión eléctrica blanca- 3.6 m;2,93;226;3,32;;
-332;Extensión eléctrica naranja- 7.5 m;6,14;473;6,95;;
+331;Extensión eléctrica blanca- 3.6 m;2,93;226;3,32
+332;Extensión eléctrica naranja- 7.5 m;6,14;473;6,95
 333;Face Body (Cristal facial);1,00;77;1,13;2;2,26
 334;Fichas para anotar;0,00;0;0,00;71;0,00
 335;Filtro de agua ;9,00;693;10,19;2;20,38
@@ -405,7 +405,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 404;Glucómetro (combo de 3);30,00;2310;33,97;2;67,94
 405;Golpe Ranchero grande;2,80;216;3,17;;0,00
 406;Golpe Ranchero pequeño;0,88;68;1,00;20;19,93
-407;Gomitas Brusli - Bolsa;0,50;39;0,57;;
+407;Gomitas Brusli - Bolsa;0,50;39;0,57
 408;Gomitas Play;0,68;52;0,77;;0,00
 409;Gomitas Trolli;0,50;39;0,57;;0,00
 410;Gomitas Trululu - Bolsa;0,95;73;1,08;6;6,45
@@ -427,12 +427,12 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 426;Gut- sabroseador;0,66;51;0,75;10;7,47
 427;Gut- Salsa para pasta - espaguetis;0,85;65;0,96;25;24,06
 428;Hall de menta;0,70;54;0,79;;0,00
-429;Haragan ;4,00;308;4,53;1;4,53
+429;Haragan ;4,00;308;4,53;0;4,53
 430;Harina de Trigo Mary;1,61;124;1,82;15;27,35
 431;Harina Kaly ;1,10;85;1,25;;0,00
 432;Harina Mary- Maíz Blanco;1,20;92;1,36;41;55,71
 433;Harina PAN;1,20;92;1,36;67;91,04
-434;Harina PAN 2 KILOS;2,40;185;2,72;;
+434;Harina PAN 2 KILOS;2,40;185;2,72
 435;Helados Chupis ;0,20;15;0,23;0;0,00
 436;Helados PALETAS de chocolate;1,33;102;1,51;100;150,60
 437;Helados TINITAS, BARQUILLAS Y BATI-BATI;1,00;77;1,13;100;113,24
@@ -448,7 +448,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 447;Hojillas Dorco - azul - platinium - paquete 5;0,90;69;1,02;16;16,31
 448;Hojillas Dorco - roja - individual;0,16;12;0,18;;0,00
 449;Hojillas Dorco - roja - paquete 5 ;0,80;62;0,91;15;13,59
-450;Huevos de chocolate ;0,30;23;0,34;;
+450;Huevos de chocolate ;0,30;23;0,34
 451;Huevos detallados;0,21;16;0,24;42;10,03
 452;Huevos Medio Cartón - Pequeños;;0;0,00;;0,00
 453;Humificador Colorful Egg;9,00;693;10,19;;0,00
@@ -485,7 +485,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 484;Jabonera automática;4,50;347;5,10;2;10,19
 485;Jabonera normal;1,30;100;1,47;5;7,36
 486;Jarra de jugo pequeña;2,00;154;2,26;4;9,06
-487;Juego de herramientas 28 piezas;5;385;5,66;;
+487;Juego de herramientas 28 piezas;5;385;5,66
 488;Jugo PULP y Nutiva;0,42;32;0,48;25;11,89
 489;Jugo YUKY PAK;1,45;112;1,64;3;4,93
 490;Jugos de cartón de litro ;1,50;116;1,70;6;10,19
@@ -497,10 +497,10 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 496;Labial Mágico  Baby- Magic Blush;0,50;39;0,57;19;10,76
 497;Labiales Miss Betty;1,25;96;1,42;18;25,48
 498;Labiales Stark - Color Cloud (normales);1,00;77;1,13;40;45,29
-499;Laca spray;4,00;308;4,53;;
+499;Laca spray;4,00;308;4,53
 500;Lámpara para uñas;5,00;385;5,66;2;11,32
 501;Lámpara para uñas grande;17,62;1357;19,95;3;59,86
-502;Lámparas Jelly de mesa;10,00;770;11,32;;
+502;Lámparas Jelly de mesa;10,00;770;11,32
 503;Lámparas reflectoras azules;3,00;231;3,40;5;16,99
 504;Lampiña;3,20;246;3,62;3;10,87
 505;Lapiceros de gel;0,50;39;0,57;;0,00
@@ -527,7 +527,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 526;Licencia ;2,00;154;2,26;;0,00
 527;Licras de Dama ;2,50;193;2,83;7;19,82
 528;Ligas;0,40;31;0,45;;0,00
-529;Ligas para el cabello SPARK;2,00;154;2,26;6;
+529;Ligas para el cabello SPARK;2,00;154;2,26;6
 530;Liguitas para el cabello Carterita ;0,80;62;0,91;15;13,59
 531;Liguitas para el cabello KCKO- CAY;0,53;41;0,60;;0,00
 532;Liguitas para el cabello TPU;0,66;51;0,75;;0,00
@@ -539,13 +539,13 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 538;Llaveros variados VIEJOS y pom pom ;1,00;77;1,13;19;21,51
 539;Lluvia de chocolate y colores ;0,50;39;0,57;59;33,40
 540;Luces de Bengala;0,50;39;0,57;;0,00
-541;Luces LED;7,94;611;8,99;;
+541;Luces LED;7,94;611;8,99
 542;Luces navideñas ;4,00;308;4,53;7;31,71
 543;Macarillas para puntos negros;1,00;77;1,13;11;12,46
 544;Maíz dulce;3,00;231;3,40;2;6,79
 545;Maizina Americana 200gr;1,95;150;2,21;9;19,87
 546;Maizina Americana 90gr;1,10;85;1,25;14;17,44
-547;Maltas de botellas desechables;1,10;85;1,25;;
+547;Maltas de botellas desechables;1,10;85;1,25
 548;Maltas de botellas retornabes;0,60;46;0,68;5;3,40
 549;Maltas de latas;1,20;92;1,36;21;28,54
 550;Manguera;15,00;1155;16,99;2;33,97
@@ -566,12 +566,12 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 565;Marcadores Permanentes Sharpie - Punta Fina;1,90;146;2,15;64;137,69
 566;Marcadores Sharpie  - paquete ;15,00;1155;16,99;1;16,99
 567;Marcadores Sharpie retractil - individual;1,20;92;1,36;;0,00
-568;Marshmallow;0,11;8;0,12;;
+568;Marshmallow;0,11;8;0,12
 569;Masa fácil;1,55;119;1,76;6;10,53
 570;Máscara de pestañas (rimel);1,10;85;1,25;30;37,37
 571;Máscara para pestañas - Rimel - Maybellin;2,00;154;2,26;12;27,18
-572;Máscaras;3,84;296;4,35;;
-573;Mascarilla pantene para el cabello ;0,80;62;0,91;;
+572;Máscaras;3,84;296;4,35
+573;Mascarilla pantene para el cabello ;0,80;62;0,91
 574;Mascarillas hidratantes;0,70;54;0,79;25;19,82
 575;Mayonesa Mavesa - KRAFT (Pequeña);2,20;169;2,49;30;74,74
 576;Mayonesa Mavesa (Grande);4,30;331;4,87;4;19,48
@@ -584,8 +584,8 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 583;Memoria 64 GB;10,00;770;11,32;4;45,29
 584;Millows ;0,08;6;0,09;;0,00
 585;Minas - Tubos;0,60;46;0,68;72;48,92
-586;Mini cornetas - Music;4,18;322;4,73;;
-587;Minty TAC- TIC-TAC;0,51;39;0,58;;
+586;Mini cornetas - Music;4,18;322;4,73
+587;Minty TAC- TIC-TAC;0,51;39;0,58
 588;Molde de mariposas para uñas ;2,00;154;2,26;5;11,32
 589;Molinillo de pies eléctrico;7,00;539;7,93;3;23,78
 590;Monedas de chocolate;0,15;12;0,17;74;12,57
@@ -603,13 +603,13 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 602;Nucita de tubo;1,28;99;1,45;7;10,15
 603;NutriBela ;0,80;62;0,91;211;191,14
 604;Nuttelini;0,30;23;0,34;;0,00
-605;Nylon - nailón 70 gr;1,23;95;1,39;;
+605;Nylon - nailón 70 gr;1,23;95;1,39
 606;Oka Loka Cajita grande;;0;0,00;;0,00
 607;Oka Loka Cajita pequeña- Nanos;0,25;19;0,28;41;11,61
 608;Oka Loka Chicle polvo - Con paleta y sin paleta;0,27;21;0,31;46;14,22
 609;Oka loka fusión;0,35;27;0,40;;0,00
 610;Oka Loka Ovnis;0,30;23;0,34;;0,00
-611;Olla para cera depiladora;13,00;1001;14,72;;
+611;Olla para cera depiladora;13,00;1001;14,72
 612;Once once ;0,90;69;1,02;;0,00
 613;Ovomaltina ;1,30;100;1,47;;0,00
 614;Oxímetro - Oximeter;5,00;385;5,66;1;5,66
@@ -651,7 +651,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 650;Papel Higiénico Individual;0,36;28;0,41;22;8,97
 651;Papelón 500 gr;0,65;50;0,74;;0,00
 652;Parrillita;0,40;31;0,45;;0,00
-653;Pasta Capri  -   1kg - Corta;1,70;131;1,93;;
+653;Pasta Capri  -   1kg - Corta;1,70;131;1,93
 654;Pasta Capri  1kg  - Larga;1,70;131;1,93;3;5,78
 655;Pasta Mary  1kg - Corta;1,97;152;2,23;19;42,38
 656;Pasta Oba / Bellini/ Mary -  500g - Corta;1,30;100;1,47;32;47,11
@@ -681,11 +681,11 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 680;Peine Bollet - Dance Famingo;0,80;62;0,91;4;3,62
 681;Peine Saca piojo ;0,53;41;0,60;10;5,97
 682;Pela papa;2,00;154;2,26;1;2,26
-683;Pelotas de center filled gum;0,18;14;0,20;;
+683;Pelotas de center filled gum;0,18;14;0,20
 684;Pendrive de 128GB;15,00;1155;16,99;3;50,96
 685;Pendrive de 32GB;8,00;616;9,06;1;9,06
 686;Pendrive de 64GB;9,00;693;10,19;3;30,57
-687;Pepito Boli Bulls Familiar 60 gramos;0,67;52;0,76;;
+687;Pepito Boli Bulls Familiar 60 gramos;0,67;52;0,76
 688;Pepito Boli Bulls Familiar 75 gramos;0,87;67;0,99;11;10,84
 689;Pepito ORIGINAL Familiar;;0;0,00;;0,00
 690;Pepito Súper Popy Familiar;0,85;65;0,96;12;11,55
@@ -701,9 +701,9 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 700;Pestañas postizas - estuche transparente;1,80;139;2,04;127;258,86
 701;Picatodo;8,00;616;9,06;4;36,24
 702;Piedras de Swarovski - grande;3,10;239;3,51;12;42,12
-703;Piedras de Swarovski - pequeña;1,80;139;2,04;;
+703;Piedras de Swarovski - pequeña;1,80;139;2,04
 704;Pigmento M&Y - para cejas semipermanente ;2,00;154;2,26;9;20,38
-705;Pigsi picante pequeño;0,27;21;0,31;;
+705;Pigsi picante pequeño;0,27;21;0,31
 706;Pilas - Bateria control 27A;2,84;219;3,22;15;48,24
 707;Pilas Duracell - 2 pilas-;2,30;177;2,60;;0,00
 708;Pilas grandes - chinas - 4 UNIDADES;1,20;92;1,36;15;20,38
@@ -714,7 +714,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 713;Pinceles - escolares - Kit o Set de 10;3,90;300;4,42;1;4,42
 714;Pinceles - escolares - Kit o Set de 6 ;2,95;227;3,34;4;13,36
 715;Pinceles acrílicos para uñas - 5 unidades;2,50;193;2,83;7;19,82
-716;Pinceles gel para uñas - 5 unidades;1,70;131;1,93;;
+716;Pinceles gel para uñas - 5 unidades;1,70;131;1,93
 717;Pinceles grandes  - escolares - individuales;0,50;39;0,57;;0,00
 718;Pinceles para uñas -  individual -  nº 8 , nº 12 Nº10;1,80;139;2,04;81;165,10
 719;Pinceles para uñas -  kit de 15 piezas;3,00;231;3,40;15;50,96
@@ -725,9 +725,9 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 724;Pintura al frío 60 cm;1,50;116;1,70;87;147,77
 725;Pintura de uña BASE COAT;1,50;116;1,70;58;98,51
 726;Pintura de uña TOP COAT;1,50;116;1,70;40;67,94
-727;Pintura Finish Meilis;1,50;116;1,70;;
-728;Pintura Pega Jelly;1,50;116;1,70;;
-729;Pintura Protein Bond;1,50;116;1,70;;
+727;Pintura Finish Meilis;1,50;116;1,70
+728;Pintura Pega Jelly;1,50;116;1,70
+729;Pintura Protein Bond;1,50;116;1,70
 730;Pinturas de uña - normales;0,95;73;1,08;184;197,94
 731;Pinturas de uña - semipermanentes- lámparas;1,50;116;1,70;459;779,63
 732;Pinza para pestaña ;0,70;54;0,79;2;1,59
@@ -741,7 +741,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 740;Plagatos caja completa;3,11;239;3,52;;0,00
 741;Plagatos espiral individual;0,31;24;0,35;;0,00
 742;Plancha para el cabello;28,00;2156;31,71;1;31,71
-743;Plancha para el cabello 450°F;17,00;1309;19,25;;
+743;Plancha para el cabello 450°F;17,00;1309;19,25
 744;Plantillas de letras;1,60;123;1,81;1;1,81
 745;Plantillas de Orejitas y dos x 2$;0,75;58;0,85;;0,00
 746;Plastificación pequeña ;1,00;77;1,13;200;226,47
@@ -749,7 +749,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 748;Plastilinas 12 colores;2,80;216;3,17;6;19,02
 749;Platos desechables - paquete;1,00;77;1,13;7;7,93
 750;Platos llanos mediano;0,60;46;0,68;9;6,11
-751;Platos para mascotas;2,16;166;2,45;;
+751;Platos para mascotas;2,16;166;2,45
 752;Pliego de foami escarchados - Colores Variados;0,90;69;1,02;51;51,98
 753;Pliego de foami unicolor - variados;0,60;46;0,68;156;105,99
 754;Pliego de papel de seda;0,36;28;0,41;49;19,97
@@ -770,20 +770,20 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 769;Polygen 30ml;1,60;123;1,81;3;5,44
 770;Poncheras;4,00;308;4,53;2;9,06
 771;Portaminas brillantes y Kores;1,00;77;1,13;20;22,65
-772;Pote de agua reciclable;9,60;739;10,87;;
+772;Pote de agua reciclable;9,60;739;10,87
 773;Prestobarba Dorco;0,30;23;0,34;54;18,34
 774;Prestobarba Dorco paquete de 5 unidades;1,10;85;1,25;;0,00
 775;Prestobarba Gillette - 2 hojllas;1,29;99;1,46;6;8,76
-776;Prestobarba Gillette - 3 hojllas;2,11;162;2,39;;
+776;Prestobarba Gillette - 3 hojllas;2,11;162;2,39
 777;Prestobarba Max Extreme de 3 hojillas;0,50;39;0,57;79;44,73
-778;Pulsera de cordón;1,6;123;1,81;;
+778;Pulsera de cordón;1,6;123;1,81
 779;Puntero para uñas;1,60;123;1,81;15;27,18
 780;Qualimax 15 gramos;0,40;31;0,45;;0,00
 781;Queso Blanco- Duro;6,50;501;7,36;15;110,40
-782;Quita pelusas eléctrico;8,00;616;9,06;;
-783;Rack charger - 65w;9,10;701;10,30;;
+782;Quita pelusas eléctrico;8,00;616;9,06
+783;Rack charger - 65w;9,10;701;10,30
 784;Raquety;0,63;49;0,72;;0,00
-785;Rasuradora -afeitadora- Lingke;6,14;473;6,95;;
+785;Rasuradora -afeitadora- Lingke;6,14;473;6,95
 786;Rayador  Grande;4,00;308;4,53;;0,00
 787;Rayador  pequeño ;1,50;116;1,70;5;8,49
 788;Rayador de acero inoxidable ;3,81;293;4,31;4;17,26
@@ -793,7 +793,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 792;Refrescos 1 Litros ;0,85;65;0,96;190;182,88
 793;Refrescos 1 y medio ;1,00;77;1,13;26;29,44
 794;Refrescos 2 Litros Glup;1,24;95;1,40;177;248,53
-795;Refrescos 2 Litros Golden;1,30;100;1,47;;
+795;Refrescos 2 Litros Golden;1,30;100;1,47
 796;Refrescos de BOMBITA;0,50;39;0,57;67;37,93
 797;Regla Individual Kores ;2,80;216;3,17;6;19,02
 798;Regla Individual marca Mayka;0,80;62;0,91;8;7,25
@@ -847,7 +847,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 846;Salsa soya  LA CHINA - Individual;1,80;139;2,04;4;8,15
 847;Saltitacos - Crakeñas- Individuales;0,77;59;0,87;6;5,23
 848;Saltitacos - Salricas  de 7 paquetes;;0;0,00;;0,00
-849;Saltitacos - Salricas individual;0,66;51;0,75;;
+849;Saltitacos - Salricas individual;0,66;51;0,75
 850;Samba ;0,00;0;0,00;;0,00
 851;Samba PEQUEÑA;0,53;41;0,60;63;37,81
 852;Samy de Chocolate;0,20;15;0,23;;0,00
@@ -872,11 +872,11 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 871;Sombra -paleta 35 tonos - ;6,70;516;7,59;;0,00
 872;Sombra para cejas Miss Fon;1,00;77;1,13;23;26,04
 873;Sombra para ojos NUDE;3,00;231;3,40;9;30,57
-874;Sombra Seven Cool 5 tonos;2,00;154;2,26;;
+874;Sombra Seven Cool 5 tonos;2,00;154;2,26
 875;Sopa Maggi;1,34;103;1,52;21;31,86
 876;Speed de lata;0,75;58;0,85;27;22,93
 877;Speed de litro;1,20;92;1,36;10;13,59
-878;Spray para el cabello de colores;5,75;443;6,51;;
+878;Spray para el cabello de colores;5,75;443;6,51
 879;Suavitel Grande 360ml;1,70;131;1,93;;0,00
 880;Suavitel pequeño;0,95;73;1,08;58;62,39
 881;Súper Coco Barra;0,35;27;0,40;;0,00
@@ -891,7 +891,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 890;Talco para los pies BERNICE;1,37;105;1,55;6;9,27
 891;Talco para los pies pequeño BOROCANFOR;1,33;102;1,51;5;7,53
 892;Tamarindo ;0,35;27;0,40;;0,00
-893;Tángana - tangana de 350ml;2,70;208;3,06;;
+893;Tángana - tangana de 350ml;2,70;208;3,06
 894;Tapabocas ECONÓMICOS ;0,10;8;0,11;38;4,30
 895;Tapabocas KN95;0,40;31;0,45;65;29,44
 896;Tapas de botellones;0,24;19;0,27;;0,00
@@ -931,7 +931,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 930;Toallas Humedas  de 50 hojas HUGME;1,00;77;1,13;70;79,26
 931;Toallas Humedas  de 50 hojas MOMI;1,10;85;1,25;16;19,93
 932;Toallas Humedas  de 80 hojas HUGME;1,70;131;1,93;1;1,93
-933;Toallas o paños colgantes;0,87;67;0,99;;
+933;Toallas o paños colgantes;0,87;67;0,99
 934;Toallas Sanitarias INDIVIDUALES;0,13;10;0,15;29;4,27
 935;Toallas Sanitarias paquete HUGME;1,00;77;1,13;67;75,87
 936;Toallas WANITA MORADAS;1,51;116;1,71;11;18,81
@@ -954,13 +954,13 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 953;Transcripción de documentos sin impresión;1,20;92;1,36;;0,00
 954;Transmisor cenicero bluetooth - Car FM player;9,00;693;10,19;2;20,38
 955;Trident - tipo chicle-individual;0,13;10;0,15;125;18,40
-956;Twistikeso;3,5;270;3,96;;
+956;Twistikeso;3,5;270;3,96
 957;Uñas curvas- paquete (NALL 500 PCS);6,00;462;6,79;3;20,38
 958;Uñas postizas - Jelly Tips caja;4,30;331;4,87;6;29,21
 959;Uñas postizas - Jelly Tips por blister (24 uñas);0,60;46;0,68;15;10,19
 960;Uñas postizas - normales;1,50;116;1,70;0;0,00
 961;Uñas postizas decoradas;2,50;193;2,83;2;5,66
-962;Utensilios de cocina;2,00;154;2,26;7;
+962;Utensilios de cocina;2,00;154;2,26;7
 963;Vainilla 250 ml;0,80;62;0,91;37;33,52
 964;Vajilla - combo;10,00;770;11,32;1;11,32
 965;Vaselina cartón - Lipbalm;0,90;69;1,02;6;6,11
@@ -988,5 +988,3 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 987;Zarcillos por pares - estuche blanco;1,20;92;1,36;29;39,41
 988;Zarcillos por pares - pequeños ;0,50;39;0,57;9;5,10
 989;Zarcillos y cadena - Juego ;1,60;123;1,81;27;48,92
-990;Pan Andre Go;2,20;200;1,80;30;40,50
-990;Malta Andre Go;2,20;200;1,80;30;40,50

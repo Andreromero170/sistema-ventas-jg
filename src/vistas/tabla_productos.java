@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import javax.swing.ImageIcon;
 
 /**
  *
@@ -44,6 +45,10 @@ public class tabla_productos extends javax.swing.JFrame {
 
         // Asignar el modelo a la tabla
         estilizarTabla(tablaProductos);
+        
+         ImageIcon icono = new ImageIcon(getClass().getResource("/imagenes/Logo Inversiones Figuera JG, C.A. - copia.jpg"));
+        setIconImage(icono.getImage());
+        
 
         // Añadir columnas al modelo de la tabla
         model.addColumn("ID");
@@ -399,6 +404,96 @@ private void actualizarFilaSeleccionada(DefaultTableModel modelo, JTable tabla, 
     }
 }
 
+private void actualizarInventario(JTable tabla, String archivoCSV) {
+    int filaSeleccionada = tabla.getSelectedRow();
+
+    if (filaSeleccionada == -1) {
+        JOptionPane.showMessageDialog(null, "Por favor, selecciona una fila de la tabla.");
+        return;
+    }
+
+    File archivo = new File(archivoCSV);
+    if (!archivo.exists()) {
+        JOptionPane.showMessageDialog(null, "El archivo CSV no existe.");
+        return;
+    }
+
+    try {
+        List<String> lineas = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader(archivo));
+        String encabezado = reader.readLine();  // Leer encabezado
+        String[] columnas = encabezado.split(";");
+        lineas.add(encabezado);  // Agregar el encabezado al nuevo archivo
+
+        int indiceId = -1;
+        int indiceInventario = -1;
+
+        // Encontrar las posiciones de las columnas ID e Inventario
+        for (int i = 0; i < columnas.length; i++) {
+            if (columnas[i].equalsIgnoreCase("ID")) {
+                indiceId = i;
+            }
+            if (columnas[i].equalsIgnoreCase("Inventario")) {
+                indiceInventario = i;
+            }
+        }
+
+        if (indiceId == -1 || indiceInventario == -1) {
+            JOptionPane.showMessageDialog(null, "No se encontraron las columnas 'ID' o 'Inventario' en el archivo CSV.");
+            reader.close();
+            return;
+        }
+
+        // Obtener el ID del producto de la fila seleccionada
+        String idProducto = tabla.getValueAt(filaSeleccionada, 0).toString().trim();  // Suponiendo que el ID está en la primera columna
+
+        String linea;
+        boolean productoEncontrado = false;
+
+        // Leer todas las líneas del archivo CSV
+        while ((linea = reader.readLine()) != null) {
+            String[] datos = linea.split(";");
+
+            if (datos.length > indiceId && datos[indiceId].trim().equals(idProducto)) {
+                // Producto encontrado, actualizar la cantidad en Inventario
+                String nuevaCantidadStr = tabla.getValueAt(filaSeleccionada, 5).toString().trim();  // La nueva cantidad está en la columna 5 de la tabla
+                nuevaCantidadStr = nuevaCantidadStr.replace(",", ".");  // Reemplazar coma por punto si es necesario
+                int nuevaCantidad = Integer.parseInt(nuevaCantidadStr);  // Convertir la cantidad a entero
+
+                // Actualizar la cantidad en el inventario
+                datos[indiceInventario] = String.valueOf(nuevaCantidad);  // Solo actualizamos la cantidad como entero
+
+                productoEncontrado = true;
+            }
+
+            // Volver a escribir la línea (modificada o no)
+            lineas.add(String.join(";", datos));
+        }
+
+        reader.close();
+
+        if (!productoEncontrado) {
+            JOptionPane.showMessageDialog(null, "Producto no encontrado en el archivo CSV.");
+            return;
+        }
+
+        // Reescribir el archivo CSV con las líneas actualizadas
+        BufferedWriter writer = new BufferedWriter(new FileWriter(archivo));
+        for (String l : lineas) {
+            writer.write(l);
+            writer.newLine();
+        }
+        writer.close();
+
+        JOptionPane.showMessageDialog(null, "Inventario actualizado correctamente.");
+
+    } catch (IOException | NumberFormatException e) {
+        e.printStackTrace();
+        JOptionPane.showMessageDialog(null, "Error al actualizar el inventario.", "Error", JOptionPane.ERROR_MESSAGE);
+    }
+}
+
+
 private void eliminarFilaSeleccionada(DefaultTableModel modelo, JTable tabla, String archivoCSV) {
     int filaSeleccionada = tabla.getSelectedRow();
 
@@ -511,6 +606,7 @@ private int obtenerSiguienteID(String archivoCSV) {
         btnAñadirFilas = new javax.swing.JMenuItem();
         btnGuardarProductos = new javax.swing.JMenuItem();
         btnActualizarProductos = new javax.swing.JMenuItem();
+        btnAjusteInventario = new javax.swing.JMenuItem();
         btnEliminarProductos = new javax.swing.JMenuItem();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -555,6 +651,14 @@ private int obtenerSiguienteID(String archivoCSV) {
         });
         menuOpciones.add(btnActualizarProductos);
 
+        btnAjusteInventario.setText("Ajuste de Inventario");
+        btnAjusteInventario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAjusteInventarioActionPerformed(evt);
+            }
+        });
+        menuOpciones.add(btnAjusteInventario);
+
         btnEliminarProductos.setText("Eliminar Producto");
         btnEliminarProductos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -563,7 +667,7 @@ private int obtenerSiguienteID(String archivoCSV) {
         });
         menuOpciones.add(btnEliminarProductos);
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 153));
@@ -682,6 +786,11 @@ private int obtenerSiguienteID(String archivoCSV) {
 
     }//GEN-LAST:event_btnEliminarProductosActionPerformed
 
+    private void btnAjusteInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAjusteInventarioActionPerformed
+
+        actualizarInventario(tablaProductos, "C:\\SistemaVentasJF\\src\\vistas\\productos.csv");
+    }//GEN-LAST:event_btnAjusteInventarioActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -720,6 +829,7 @@ private int obtenerSiguienteID(String archivoCSV) {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem btnActualizarProductos;
     private javax.swing.JMenuItem btnAgregarProductos;
+    private javax.swing.JMenuItem btnAjusteInventario;
     private javax.swing.JMenuItem btnAñadirFilas;
     private javax.swing.JLabel btnBuscar;
     private javax.swing.JMenuItem btnEliminarProductos;

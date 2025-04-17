@@ -21,6 +21,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
@@ -43,6 +44,9 @@ public class MetodosPago extends javax.swing.JFrame {
 
         tablaMetodos.setModel(model);
 
+         ImageIcon icono = new ImageIcon(getClass().getResource("/imagenes/Logo Inversiones Figuera JG, C.A. - copia.jpg"));
+        setIconImage(icono.getImage());
+        
         // Asignar el modelo a la tabla
         estilizarTabla(tablaMetodos);
 
@@ -484,7 +488,7 @@ private int obtenerSiguienteID(String archivoCSV) {
         });
         menuMetodos.add(btnEliminarMetodos);
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 204));

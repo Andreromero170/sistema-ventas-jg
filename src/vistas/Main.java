@@ -14,6 +14,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
 import javax.swing.DefaultCellEditor;
+import javax.swing.ImageIcon;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -35,6 +38,9 @@ public class Main extends javax.swing.JFrame {
         obtenerTasaDolar();
         cargarMetodosPago();
         generarCodigoVenta();
+
+        ImageIcon icono = new ImageIcon(getClass().getResource("/imagenes/Logo Inversiones Figuera JG, C.A. - copia.jpg"));
+        setIconImage(icono.getImage());
 
         model2.addColumn("Producto");
         model2.addColumn("Precio en $");
@@ -193,7 +199,7 @@ public class Main extends javax.swing.JFrame {
     private void initComponents() {
 
         menuVenta = new javax.swing.JPopupMenu();
-        btnRenoverProducto = new javax.swing.JMenuItem();
+        btnRemoverProducto = new javax.swing.JMenuItem();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         tablaVentas = new javax.swing.JTable();
@@ -236,8 +242,13 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        btnRenoverProducto.setText("Remover Producto");
-        menuVenta.add(btnRenoverProducto);
+        btnRemoverProducto.setText("Remover Producto");
+        btnRemoverProducto.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemoverProductoActionPerformed(evt);
+            }
+        });
+        menuVenta.add(btnRemoverProducto);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
@@ -312,11 +323,11 @@ public class Main extends javax.swing.JFrame {
 
         txtNombre.setFont(new java.awt.Font("Times New Roman", 1, 15)); // NOI18N
         txtNombre.setForeground(new java.awt.Color(255, 255, 255));
-        jPanel2.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 140, 20));
+        jPanel2.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 158, 140, 20));
 
         txtDireccion.setFont(new java.awt.Font("Times New Roman", 1, 15)); // NOI18N
         txtDireccion.setForeground(new java.awt.Color(255, 255, 255));
-        jPanel2.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 190, 140, 20));
+        jPanel2.add(txtDireccion, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 188, 140, 20));
 
         txtTelefono.setFont(new java.awt.Font("Times New Roman", 1, 15)); // NOI18N
         txtTelefono.setForeground(new java.awt.Color(255, 255, 255));
@@ -422,55 +433,80 @@ public class Main extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
 
+        btnAjusteInventario.setBackground(new java.awt.Color(153, 0, 153));
+        btnAjusteInventario.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnAjusteInventario.setForeground(new java.awt.Color(255, 255, 255));
         btnAjusteInventario.setText("Ajuste de Inventario");
+        btnAjusteInventario.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.white, java.awt.Color.white));
+        btnAjusteInventario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAjusteInventarioActionPerformed(evt);
+            }
+        });
 
+        btnAgregarClientes.setBackground(new java.awt.Color(255, 102, 0));
+        btnAgregarClientes.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnAgregarClientes.setForeground(new java.awt.Color(255, 255, 255));
         btnAgregarClientes.setText("Agregar Clientes");
+        btnAgregarClientes.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.white, java.awt.Color.white));
         btnAgregarClientes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAgregarClientesActionPerformed(evt);
             }
         });
 
+        btnAgregarMetodosPago.setBackground(new java.awt.Color(51, 255, 51));
+        btnAgregarMetodosPago.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnAgregarMetodosPago.setForeground(new java.awt.Color(255, 255, 255));
         btnAgregarMetodosPago.setText("Agregar Metodos de Pago");
+        btnAgregarMetodosPago.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.white, java.awt.Color.white));
+        btnAgregarMetodosPago.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarMetodosPagoActionPerformed(evt);
+            }
+        });
 
+        btnAgregarInventario.setBackground(new java.awt.Color(204, 0, 0));
+        btnAgregarInventario.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnAgregarInventario.setForeground(new java.awt.Color(255, 255, 255));
         btnAgregarInventario.setText("Agregar al Inventario");
+        btnAgregarInventario.setBorder(javax.swing.BorderFactory.createEtchedBorder(java.awt.Color.white, java.awt.Color.white));
+        btnAgregarInventario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnAgregarInventarioActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(174, 174, 174)
-                        .addComponent(btnAjusteInventario))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnAgregarClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(52, 52, 52)
-                        .addComponent(btnAgregarMetodosPago)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnAgregarInventario)))
-                .addContainerGap(140, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel4Layout.createSequentialGroup()
-                    .addGap(52, 52, 52)
-                    .addComponent(btnAgregarClientes)
-                    .addContainerGap(325, Short.MAX_VALUE)))
+                        .addComponent(btnAgregarMetodosPago, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnAjusteInventario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAgregarInventario, javax.swing.GroupLayout.DEFAULT_SIZE, 182, Short.MAX_VALUE))
+                .addGap(67, 67, 67))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(btnAjusteInventario)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(6, 6, 6)
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAgregarMetodosPago)
-                    .addComponent(btnAgregarInventario))
-                .addContainerGap(16, Short.MAX_VALUE))
-            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(jPanel4Layout.createSequentialGroup()
-                    .addGap(31, 31, 31)
-                    .addComponent(btnAgregarClientes)
-                    .addContainerGap(46, Short.MAX_VALUE)))
+                    .addComponent(btnAjusteInventario, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnAgregarClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btnAgregarMetodosPago, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnAgregarInventario, javax.swing.GroupLayout.DEFAULT_SIZE, 40, Short.MAX_VALUE))
+                .addContainerGap(27, Short.MAX_VALUE))
         );
 
         jPanel2.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 410, 490, -1));
@@ -500,20 +536,45 @@ public class Main extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 505, Short.MAX_VALUE)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 505, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 517, Short.MAX_VALUE)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 517, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
-        // TODO add your handling code here:
+        // Obtener los datos del cliente desde los campos de texto
+        String nombreCliente = txtNombre.getText();
+        String cedulaCliente = txtCedula1.getText();
+        String direccion = txtDireccion.getText();
+        String telefono = txtTelefono.getText();
+        String numeroVenta = txtNumeroVenta.getText();
+        // Obtener los totales (por ejemplo, ya calculados en algún lugar de tu código)
+        String totalDolares = this.totalDolares.getText();  // Asegúrate de tener estos valores calculados previamente
+        String totalBolivares = this.totalBolivares.getText();
+        String monedaSeleccionada = (String) cbxMonedas.getSelectedItem();  // Obtenemos la moneda seleccionada
+
+        // Llamar al método para generar la factura
+        FacturaGeneradora facturaGeneradora = new FacturaGeneradora();
+        // Crear una instancia de la clase RegistroVenta
+        RegistroVenta registro = new RegistroVenta();
+
+        // Llamar al método registrarVenta con los parámetros obtenidos
+        registro.registrarVenta(tablaVentas, nombreCliente, cedulaCliente, totalDolares, totalBolivares, numeroVenta);
+        // Crear una instancia de ActualizarInventario
+        ActualizarInventario actualizador = new ActualizarInventario();
+
+        // Llamar al método actualizarInventario para actualizar el archivo del inventario
+        String archivoInventario = "C:\\SistemaVentasJF\\src\\vistas\\productos.csv";  // Ruta del archivo de inventario
+        actualizador.actualizarInventario(archivoInventario, tablaVentas);
+facturaGeneradora.generarFactura(tablaVentas, nombreCliente, cedulaCliente, totalBolivares, monedaSeleccionada, "C:\\SistemaVentasJF\\src\\imagenes\\logo.jpg");
     }//GEN-LAST:event_btnRegistrarActionPerformed
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
         limpiarFormulario();
         generarCodigoVenta();
+        cargarMetodosPago();
     }//GEN-LAST:event_btnResetActionPerformed
     public void buscarPorCedula() {
         String archivo = "C:\\SistemaVentasJF\\src\\vistas\\registro_personas.csv";
@@ -529,8 +590,8 @@ public class Main extends javax.swing.JFrame {
                 if (datos.length >= 4) {
                     String cedulaArchivo = datos[1].trim();
                     if (cedulaArchivo.equals(cedulaBuscada)) {
-                        txtCedula1.setText(datos[0].trim());
-                        txtNombre.setText(datos[1].trim());
+                        txtCedula1.setText(datos[1].trim());
+                        txtNombre.setText(datos[0].trim());
                         txtDireccion.setText(datos[2].trim());
                         txtTelefono.setText(datos[3].trim());
 
@@ -631,86 +692,102 @@ public class Main extends javax.swing.JFrame {
         }
     }
 
- private void actualizarTotales() {
-    double tasa = 1.0;
-    try {
-        String tasaTexto = cbxTasaDolar.getSelectedItem().toString().trim();
+    private void actualizarTotales() {
+        double tasa = 1.0;
+        try {
+            String tasaTexto = cbxTasaDolar.getSelectedItem().toString().trim();
 
-        if (tasaTexto.contains("-")) {
-            tasaTexto = tasaTexto.split("-")[1].trim().replace(",", ".");
-            tasa = Double.parseDouble(tasaTexto);
-        } else {
+            if (tasaTexto.contains("-")) {
+                tasaTexto = tasaTexto.split("-")[1].trim().replace(",", ".");
+                tasa = Double.parseDouble(tasaTexto);
+            } else {
+                JOptionPane.showMessageDialog(null, "⚠️ Tasa del dólar inválida.");
+                return;
+            }
+        } catch (Exception ex) {
             JOptionPane.showMessageDialog(null, "⚠️ Tasa del dólar inválida.");
             return;
         }
-    } catch (Exception ex) {
-        JOptionPane.showMessageDialog(null, "⚠️ Tasa del dólar inválida.");
-        return;
-    }
 
-    String monedaSeleccionada = cbxMonedas.getSelectedItem().toString().trim();
-    double totalEnDolares = 0.0;
-    double totalEnBs = 0.0;
+        String monedaSeleccionada = cbxMonedas.getSelectedItem().toString().trim();
+        double totalEnDolares = 0.0;
+        double totalEnBs = 0.0;
 
-    // Buscar la columna correspondiente al precio según moneda
-    int columnaPrecio = -1;
-    for (int col = 0; col < tablaVentas.getColumnCount(); col++) {
-        String nombreColumna = tablaVentas.getColumnName(col).trim();
-        if (nombreColumna.equalsIgnoreCase(monedaSeleccionada)) {
-            columnaPrecio = col;
-            break;
-        }
-    }
-
-    if (columnaPrecio == -1) {
-        JOptionPane.showMessageDialog(null, "⚠️ No se encontró la columna para: " + monedaSeleccionada);
-        return;
-    }
-
-    for (int i = 0; i < tablaVentas.getRowCount(); i++) {
-        Object cantidadObj = tablaVentas.getValueAt(i, 4); // Cantidad
-        Object precioObj = tablaVentas.getValueAt(i, columnaPrecio); // Precio según moneda
-
-        if (cantidadObj != null && precioObj != null &&
-            !cantidadObj.toString().isEmpty() && !precioObj.toString().isEmpty()) {
-
-            double cantidad = Double.parseDouble(cantidadObj.toString().replace(",", "."));
-            double precio = Double.parseDouble(precioObj.toString().replace(",", "."));
-            double subtotalDolares = 0;
-            double subtotalBs = 0;
-            String totalFormateado = "";
-
-            switch (monedaSeleccionada) {
-                case "Precio en $":
-                    subtotalDolares = cantidad * precio;
-                    subtotalBs = subtotalDolares * tasa;
-                    totalFormateado = "$ " + String.format("%.2f", subtotalDolares);
-                    break;
-                case "Precio en Bs":
-                    subtotalBs = cantidad * precio;
-                    subtotalDolares = subtotalBs / tasa;
-                    totalFormateado = "Bs. " + String.format("%.2f", subtotalBs);
-                    break;
-                case "Precio $ BCV":
-                    subtotalDolares = cantidad * precio;
-                    subtotalBs = subtotalDolares * tasa;
-                    totalFormateado = "$ " + String.format("%.2f", subtotalDolares);
-                    break;
+        // Buscar la columna correspondiente al precio según moneda
+        int columnaPrecio = -1;
+        for (int col = 0; col < tablaVentas.getColumnCount(); col++) {
+            String nombreColumna = tablaVentas.getColumnName(col).trim();
+            if (nombreColumna.equalsIgnoreCase(monedaSeleccionada)) {
+                columnaPrecio = col;
+                break;
             }
-
-            totalEnDolares += subtotalDolares;
-            totalEnBs += subtotalBs;
-
-            // Mostrar total en la moneda seleccionada en columna "Total" (columna 5)
-            tablaVentas.setValueAt(totalFormateado, i, 5);
         }
+
+        if (columnaPrecio == -1) {
+            JOptionPane.showMessageDialog(null, "⚠️ No se encontró la columna para: " + monedaSeleccionada);
+            return;
+        }
+
+        for (int i = 0; i < tablaVentas.getRowCount(); i++) {
+            Object cantidadObj = tablaVentas.getValueAt(i, 4); // Cantidad
+            Object precioObj = tablaVentas.getValueAt(i, columnaPrecio); // Precio según moneda
+
+            if (cantidadObj != null && precioObj != null
+                    && !cantidadObj.toString().isEmpty() && !precioObj.toString().isEmpty()) {
+
+                double cantidad = Double.parseDouble(cantidadObj.toString().replace(",", "."));
+                double precio = Double.parseDouble(precioObj.toString().replace(",", "."));
+                double subtotalDolares = 0;
+                double subtotalBs = 0;
+                String totalFormateado = "";
+
+                switch (monedaSeleccionada) {
+                    case "Precio en $":
+                        subtotalDolares = cantidad * precio;
+                        subtotalBs = subtotalDolares * tasa;
+                        totalFormateado = "$ " + String.format("%.2f", subtotalDolares);
+                        break;
+                    case "Precio en Bs":
+                        subtotalBs = cantidad * precio;
+                        subtotalDolares = subtotalBs / tasa;
+                        totalFormateado = "Bs. " + String.format("%.2f", subtotalBs);
+                        break;
+                    case "Precio $ BCV":
+                        subtotalDolares = cantidad * precio;
+                        subtotalBs = subtotalDolares * tasa;
+                        totalFormateado = "$ " + String.format("%.2f", subtotalDolares);
+                        break;
+                }
+
+                totalEnDolares += subtotalDolares;
+                totalEnBs += subtotalBs;
+
+                // Mostrar total en la moneda seleccionada en columna "Total" (columna 5)
+                tablaVentas.setValueAt(totalFormateado, i, 5);
+            }
+        }
+
+        totalDolares.setText("$ " + String.format("%.2f", totalEnDolares));
+        totalBolivares.setText("Bs. " + String.format("%.2f", totalEnBs));
     }
 
-    totalDolares.setText("$ " + String.format("%.2f", totalEnDolares));
-    totalBolivares.setText("Bs. " + String.format("%.2f", totalEnBs));
-}
+    private void removerFila() {
+        int filaSeleccionada = tablaVentas.getSelectedRow();
 
- 
+        if (filaSeleccionada == -1) {
+            JOptionPane.showMessageDialog(null, "⚠️ Selecciona una fila para eliminar.");
+            return;
+        }
+
+        // Eliminar la fila seleccionada
+        DefaultTableModel modelo = (DefaultTableModel) tablaVentas.getModel();
+        modelo.removeRow(filaSeleccionada);
+
+        // Actualizar los totales después de eliminar la fila
+        actualizarTotales();
+    }
+
+
     private void txtCedula1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtCedula1KeyPressed
 
         if (evt.getKeyCode() == java.awt.event.KeyEvent.VK_ENTER) {
@@ -761,6 +838,25 @@ public class Main extends javax.swing.JFrame {
         actualizarTotales();
     }//GEN-LAST:event_cbxTasaDolarActionPerformed
 
+    private void btnRemoverProductoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoverProductoActionPerformed
+        removerFila();
+    }//GEN-LAST:event_btnRemoverProductoActionPerformed
+
+    private void btnAjusteInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAjusteInventarioActionPerformed
+        tabla_productos c = new tabla_productos();
+        c.setVisible(true);
+    }//GEN-LAST:event_btnAjusteInventarioActionPerformed
+
+    private void btnAgregarMetodosPagoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarMetodosPagoActionPerformed
+        MetodosPago c = new MetodosPago();
+        c.setVisible(true);
+    }//GEN-LAST:event_btnAgregarMetodosPagoActionPerformed
+
+    private void btnAgregarInventarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarInventarioActionPerformed
+        tabla_productos c = new tabla_productos();
+        c.setVisible(true);
+    }//GEN-LAST:event_btnAgregarInventarioActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -804,7 +900,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JButton btnAjusteInventario;
     private javax.swing.JLabel btnBuscarProducto;
     private javax.swing.JButton btnRegistrar;
-    private javax.swing.JMenuItem btnRenoverProducto;
+    private javax.swing.JMenuItem btnRemoverProducto;
     private javax.swing.JButton btnReset;
     private javax.swing.JComboBox<String> cbxMetodosPago1;
     private javax.swing.JComboBox<String> cbxMonedas;

@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
@@ -39,6 +40,10 @@ public class Clientes extends javax.swing.JFrame {
 
         tablaClientes.setModel(model);
 
+         ImageIcon icono = new ImageIcon(getClass().getResource("/imagenes/Logo Inversiones Figuera JG, C.A. - copia.jpg"));
+        setIconImage(icono.getImage());
+        
+        
         // Asignar el modelo a la tabla
         estilizarTabla(tablaClientes);
 
@@ -357,7 +362,7 @@ private void eliminarFilaSeleccionada(DefaultTableModel modelo, JTable tabla, St
 
 
     private void buscarPorNombreProducto() {
-        String archivoCSV = "C:\\Users\\Andreina Dev\\DocumentEs\\NetBeansProjects\\SistemaVentasJF\\src\\vistas\\registro_personas.csv";
+        String archivoCSV = "C:\\SistemaVentasJF\\src\\vistas\\registro_personas.csv";
         String nombreBuscado = txtBuscar.getText().trim().toLowerCase();
 
         DefaultTableModel model = (DefaultTableModel) tablaClientes.getModel();
@@ -454,7 +459,7 @@ private void eliminarFilaSeleccionada(DefaultTableModel modelo, JTable tabla, St
         });
         menuClientes.add(btnEliminarClientes);
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 204));
