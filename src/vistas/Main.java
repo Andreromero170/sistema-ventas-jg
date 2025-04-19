@@ -193,6 +193,21 @@ public class Main extends javax.swing.JFrame {
         txtTelefono.setText("");
         txtNumeroVenta.setText("");
     }
+    
+    
+        private void limpiarFactura() {
+        txtCedula1.setText("");
+        txtNombre.setText("");
+        txtDireccion.setText("");
+        txtTelefono.setText("");
+        txtNumeroVenta.setText("");
+        txtFecha1.setText("");
+        totalBolivares.setText("");
+        totalDolares.setText("");
+        DefaultTableModel modelo = (DefaultTableModel) tablaVentas.getModel();
+        modelo.setRowCount(0);
+
+    }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
@@ -564,6 +579,7 @@ public class Main extends javax.swing.JFrame {
         registro.registrarVenta(tablaVentas, nombreCliente, cedulaCliente, totalDolares, totalBolivares, numeroVenta);
         // Crear una instancia de ActualizarInventario
         ActualizarInventario actualizador = new ActualizarInventario();
+        limpiarFactura();
 
         // Llamar al método actualizarInventario para actualizar el archivo del inventario
         String archivoInventario = "C:\\SistemaVentasJF\\src\\vistas\\productos.csv";  // Ruta del archivo de inventario
