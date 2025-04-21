@@ -375,7 +375,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 374;Ganchitos de niña de dibujos;0,40;31;0,45;50;22,65
 375;Gancho negro para rollos ;0,60;46;0,68;4;2,72
 376;Gancho o pinzas para ropa - MADERA;1,44;111;1,63;7;11,41
-377;Gancho o pinzas para ropa - PLÁSTICO;1,58;122;1,79;7;12,52
+377;Gancho o pinzas para ropa - PL�?STICO;1,58;122;1,79;7;12,52
 378;Gancho para el cabello ;0,38;29;0,43;;0,00
 379;Gancho para el cabello diseñados ;0,55;42;0,62;;0,00
 380;Ganchos de carpetas ;0,06;5;0,07;100;6,79
@@ -413,7 +413,7 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 412;Gomitas Trululu Feroz- Sirenas- Dragones;0,41;32;0,46;;0,00
 413;Guantes multiusos;1,10;85;1,25;;0,00
 414;Guillotina para uñas DE METAL;2,00;154;2,26;2;4,53
-415;Guillotina para uñas DE PLÁSTICO;1,20;92;1,36;7;9,51
+415;Guillotina para uñas DE PL�?STICO;1,20;92;1,36;7;9,51
 416;Guisante ;1,20;92;1,36;7;9,51
 417;Gusanos pote 3 por 1bs ;0,09;7;0,10;;0,00
 418;Gut-  Ajo cebolla y perejil ;0,82;63;0,93;27;25,07
@@ -988,4 +988,4 @@ ID;Nombre;Precio en $;Precio en Bs;Precio $ BCV;Inventario;Costos
 987;Zarcillos por pares - estuche blanco;1,20;92;1,36;29;39,41
 988;Zarcillos por pares - pequeños ;0,50;39;0,57;9;5,10
 989;Zarcillos y cadena - Juego ;1,60;123;1,81;27;48,92
-990;Andre Prueba;1.60;100;1,80;10;55,60
+990;Andre Prueba;1.60;100;1,80;27;55,60

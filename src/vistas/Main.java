@@ -193,9 +193,8 @@ public class Main extends javax.swing.JFrame {
         txtTelefono.setText("");
         txtNumeroVenta.setText("");
     }
-    
-    
-        private void limpiarFactura() {
+
+    private void limpiarFactura() {
         txtCedula1.setText("");
         txtNombre.setText("");
         txtDireccion.setText("");
@@ -559,38 +558,74 @@ public class Main extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
-        // Obtener los datos del cliente desde los campos de texto
-        String nombreCliente = txtNombre.getText();
-        String cedulaCliente = txtCedula1.getText();
-        String direccion = txtDireccion.getText();
-        String telefono = txtTelefono.getText();
-        String numeroVenta = txtNumeroVenta.getText();
-        // Obtener los totales (por ejemplo, ya calculados en algún lugar de tu código)
-        String totalDolares = this.totalDolares.getText();  // Asegúrate de tener estos valores calculados previamente
-        String totalBolivares = this.totalBolivares.getText();
-        String monedaSeleccionada = (String) cbxMonedas.getSelectedItem();  // Obtenemos la moneda seleccionada
+  // Obtener los datos del cliente desde los campos de texto
+String nombreCliente = txtNombre.getText().trim();
+String cedulaCliente = txtCedula1.getText().trim();
+String direccion = txtDireccion.getText().trim();
+String telefono = txtTelefono.getText().trim();
+String numeroVenta = txtNumeroVenta.getText().trim();
 
-        // Llamar al método para generar la factura
-        FacturaGeneradora facturaGeneradora = new FacturaGeneradora();
-        // Crear una instancia de la clase RegistroVenta
-        RegistroVenta registro = new RegistroVenta();
+// Obtener los totales (ya calculados previamente)
+String totalDolares = this.totalDolares.getText().trim();  
+String totalBolivares = this.totalBolivares.getText().trim();
+String monedaSeleccionada = (String) cbxMonedas.getSelectedItem();  
 
-        // Llamar al método registrarVenta con los parámetros obtenidos
-        registro.registrarVenta(tablaVentas, nombreCliente, cedulaCliente, totalDolares, totalBolivares, numeroVenta);
-        // Crear una instancia de ActualizarInventario
-        ActualizarInventario actualizador = new ActualizarInventario();
-        limpiarFactura();
+// Validar si hay productos en la tabla
+if (tablaVentas.getRowCount() == 0) {
+    JOptionPane.showMessageDialog(null, "⚠️ No hay productos en la tabla. No se puede registrar la venta ni generar la factura.");
+    return;
+}
 
-        // Llamar al método actualizarInventario para actualizar el archivo del inventario
-        String archivoInventario = "C:\\SistemaVentasJF\\src\\vistas\\productos.csv";  // Ruta del archivo de inventario
-        actualizador.actualizarInventario(archivoInventario, tablaVentas);
-facturaGeneradora.generarFactura(tablaVentas, nombreCliente, cedulaCliente, totalBolivares, monedaSeleccionada, "C:\\SistemaVentasJF\\src\\imagenes\\logo.jpg");
+// Validar campos obligatorios
+if (nombreCliente.isEmpty() || cedulaCliente.isEmpty()) {
+    JOptionPane.showMessageDialog(null, "⚠️ El nombre y la cédula del cliente son obligatorios.");
+    return;
+}
+
+if (totalDolares.isEmpty() || totalBolivares.isEmpty()) {
+    JOptionPane.showMessageDialog(null, "⚠️ Los totales no han sido calculados. Verifica antes de continuar.");
+    return;
+}
+
+try {
+    // Instancias necesarias
+    FacturaGeneradora facturaGeneradora = new FacturaGeneradora();
+    RegistroVenta registro = new RegistroVenta();
+    ActualizarInventario actualizador = new ActualizarInventario();
+
+    // Registrar la venta
+    registro.registrarVenta(tablaVentas, nombreCliente, cedulaCliente, totalDolares, totalBolivares, numeroVenta);
+
+    // Actualizar inventario
+    String archivoInventario = "C:\\SistemaVentasJF\\src\\vistas\\productos.csv";
+    actualizador.actualizarInventario(archivoInventario, tablaVentas);
+
+    // Generar factura
+    facturaGeneradora.generarFactura(
+        tablaVentas,
+        nombreCliente,
+        cedulaCliente,
+        totalBolivares,
+        monedaSeleccionada,
+        "C:\\SistemaVentasJF\\src\\imagenes\\logo.jpg"
+    );
+
+    // Solo limpiar si se genera la factura sin errores
+    limpiarFactura();
+    obtenerFecha();
+
+} catch (Exception e) {
+    JOptionPane.showMessageDialog(null, "❌ Ocurrió un error durante el proceso: " + e.getMessage());
+    e.printStackTrace();
+}
+
     }//GEN-LAST:event_btnRegistrarActionPerformed
 
     private void btnResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnResetActionPerformed
         limpiarFormulario();
         generarCodigoVenta();
         cargarMetodosPago();
+        obtenerFecha();
     }//GEN-LAST:event_btnResetActionPerformed
     public void buscarPorCedula() {
         String archivo = "C:\\SistemaVentasJF\\src\\vistas\\registro_personas.csv";
@@ -603,13 +638,13 @@ facturaGeneradora.generarFactura(tablaVentas, nombreCliente, cedulaCliente, tota
             while ((linea = br.readLine()) != null) {
                 String[] datos = linea.split(";");
 
-                if (datos.length >= 4) {
-                    String cedulaArchivo = datos[1].trim();
+                if (datos.length >= 5) {
+                    String cedulaArchivo = datos[2].trim();
                     if (cedulaArchivo.equals(cedulaBuscada)) {
-                        txtCedula1.setText(datos[1].trim());
-                        txtNombre.setText(datos[0].trim());
-                        txtDireccion.setText(datos[2].trim());
-                        txtTelefono.setText(datos[3].trim());
+                        txtCedula1.setText(datos[2].trim());
+                        txtNombre.setText(datos[1].trim());
+                        txtDireccion.setText(datos[3].trim());
+                        txtTelefono.setText(datos[4].trim());
 
                         JOptionPane.showMessageDialog(null, "Registro encontrado.");
                         encontrado = true;
@@ -836,7 +871,7 @@ facturaGeneradora.generarFactura(tablaVentas, nombreCliente, cedulaCliente, tota
 
     private void btnAgregarClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarClientesActionPerformed
 
-        Clientes c = new Clientes();
+        Clientes1 c = new Clientes1();
         c.setVisible(true);
 
 
